@@ -1609,7 +1609,7 @@ def _build_report(
             "vocabulary_sha256_verified": checkpoint_vocab_verified,
             "run_git": checkpoint_run_git,
         },
-        "source_provenance": git_commit(Path(__file__).resolve().parents[3]),
+        "source_provenance": git_commit(Path(__file__).resolve().parent),
     }
 
 
@@ -1663,7 +1663,7 @@ def run_paired_history(
                 ),
                 "source_artifact_sha256": dict(sorted(inputs.artifact_sha256.items())),
                 "generator_source": {
-                    "git": git_commit(evaluator_path.parents[3]),
+                    "git": git_commit(evaluator_path.parent),
                     "paired_history_py_sha256": sha256_file(evaluator_path),
                     "target_templates_sha256": _target_templates_sha256(),
                     "rules_json_sha256": inputs.artifact_sha256["rules.json"],

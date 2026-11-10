@@ -1042,9 +1042,10 @@ def _assert_current_environment(spec_payload: Mapping[str, Any]) -> None:
 
 
 def _source_fingerprint() -> str:
-    root = Path(__file__).resolve().parents[3]
+    source_dir = Path(__file__).resolve().parents[1]
+    root = source_dir.parent
     candidates = [root / "pyproject.toml"]
-    candidates.extend(sorted((root / "src" / "blackjackgpt").rglob("*.py")))
+    candidates.extend(sorted(source_dir.rglob("*.py")))
     digest = hashlib.sha256()
     for path in candidates:
         if not path.is_file():
@@ -1059,10 +1060,10 @@ def _source_fingerprint() -> str:
 
 
 def _remote_provenance(commit: str) -> dict[str, Any]:
-    root = Path(__file__).resolve().parents[3]
+    source_dir = Path(__file__).resolve().parent
     try:
         origin = subprocess.run(
-            ["git", "-C", str(root), "config", "--get", "remote.origin.url"],
+            ["git", "-C", str(source_dir), "config", "--get", "remote.origin.url"],
             check=True,
             capture_output=True,
             text=True,
@@ -1071,7 +1072,7 @@ def _remote_provenance(commit: str) -> dict[str, Any]:
             [
                 "git",
                 "-C",
-                str(root),
+                str(source_dir),
                 "branch",
                 "-r",
                 "--contains",
