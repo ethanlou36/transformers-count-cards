@@ -12,7 +12,7 @@ from typing import Any
 
 from blackjackgpt import __version__
 from blackjackgpt.blackjack.cards import Rank
-from blackjackgpt.provenance import sha256_file as _file_sha256
+from blackjackgpt.provenance import sha256_file
 
 from .generator import (
     GENERATOR_VERSION,
@@ -197,7 +197,7 @@ def _write_staged_artifacts(
     }
     artifacts = {
         name: {
-            "sha256": _file_sha256(staging / name),
+            "sha256": sha256_file(staging / name),
             "bytes": (staging / name).stat().st_size,
             "sensitivity": sensitivity[name],
         }

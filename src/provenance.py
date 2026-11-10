@@ -18,7 +18,7 @@ def git_commit(repo_dir: str | Path | None = None) -> dict[str, object]:
         status = subprocess.check_output(
             ["git", "status", "--porcelain"], cwd=cwd, stderr=subprocess.DEVNULL
         ).decode()
-    except (subprocess.CalledProcessError, FileNotFoundError, OSError):
+    except (subprocess.CalledProcessError, OSError):
         return {"available": False}
     return {"available": True, "commit": commit, "dirty": bool(status.strip())}
 

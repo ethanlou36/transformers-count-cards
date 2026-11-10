@@ -374,7 +374,7 @@ def _find_parent_dataset_manifest(
         try:
             payload = json.loads(candidate.read_text(encoding="utf-8"))
             relative = (dataset_dir / "generation_manifest.json").relative_to(parent)
-        except (json.JSONDecodeError, OSError, ValueError):
+        except (OSError, ValueError):
             continue
         artifacts = payload.get("artifacts") if isinstance(payload, dict) else None
         metadata = (

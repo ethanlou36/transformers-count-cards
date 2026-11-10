@@ -381,13 +381,9 @@ def _write_merged_manifest(
         "max_shoe_length_tokens": int(np.diff(offsets).max()),
         "shard_order": per_shard,
         "combined_source_sha256": combined,
-        "output_tokens_sha256": _sha256_bytes(tokens.tobytes()),
+        "output_tokens_sha256": hashlib.sha256(tokens.tobytes()).hexdigest(),
     }
     (output_dir / "merged_manifest.json").write_text(json.dumps(manifest, indent=2))
-
-
-def _sha256_bytes(data: bytes) -> str:
-    return hashlib.sha256(data).hexdigest()
 
 
 def build_arg_parser() -> argparse.ArgumentParser:

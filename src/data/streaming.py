@@ -17,6 +17,7 @@ from typing import Any, BinaryIO, TextIO
 
 from blackjackgpt import __version__
 from blackjackgpt.expert.policy import ExpertPolicy
+from blackjackgpt.provenance import sha256_file
 
 from .generator import (
     GENERATOR_VERSION,
@@ -36,7 +37,6 @@ from .writers import (
     _canonical_sha256,
     _check_destination,
     _event_schema,
-    _file_sha256,
     _git_metadata,
     _publish_staging,
     _shoe_schema,
@@ -600,7 +600,7 @@ def write_streaming_shard(
 
         artifacts = {
             name: {
-                "sha256": _file_sha256(staging / name),
+                "sha256": sha256_file(staging / name),
                 "bytes": (staging / name).stat().st_size,
                 "sensitivity": _artifact_sensitivity(name),
             }
@@ -789,7 +789,7 @@ def _verify_streaming_shard(root: Path, *, replay: bool) -> dict[str, Any]:
         path = root / name
         if path.stat().st_size != int(metadata["bytes"]):
             raise ValueError(f"artifact size mismatch: {name}")
-        if _file_sha256(path) != metadata["sha256"]:
+        if sha256_file(path) != metadata["sha256"]:
             raise ValueError(f"artifact checksum mismatch: {name}")
 
     range_metadata = manifest["range"]

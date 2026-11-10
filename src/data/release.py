@@ -15,13 +15,15 @@ from dataclasses import dataclass
 from pathlib import Path
 from typing import Any
 
+from blackjackgpt.provenance import sha256_file
+
 from .generator import DATASET_SCHEMA_VERSION, GenerationConfig
 from .streaming import (
     _release_unused_memory,
     verify_streaming_shard,
     write_streaming_shard,
 )
-from .writers import _file_sha256, _git_metadata
+from .writers import _git_metadata
 
 RELEASE_SPEC_VERSION = "streaming-release-spec-v1"
 SPLIT_MANIFEST_VERSION = "streaming-split-manifest-v1"
@@ -525,7 +527,7 @@ def _verify_release(
         "payload_bytes": aggregate["payload_bytes"],
         "replay": replay,
         "replay_count": aggregate["replay_count"],
-        "dataset_manifest_sha256": _file_sha256(root / "dataset_manifest.json"),
+        "dataset_manifest_sha256": sha256_file(root / "dataset_manifest.json"),
     }
 
 
@@ -608,7 +610,7 @@ def _collect_release(
                     "end_shoe_index_exclusive": shard.end_shoe_index_exclusive,
                     "shoe_count": shard.shoe_count,
                     "manifest_path": f"{shard.relative_path}/generation_manifest.json",
-                    "manifest_sha256": _file_sha256(manifest_path),
+                    "manifest_sha256": sha256_file(manifest_path),
                     "manifest_bytes": manifest_path.stat().st_size,
                     "counts": counts,
                     "payload_bytes": shard_payload,
@@ -707,7 +709,7 @@ def _build_dataset_manifest(
     def add_artifact(relative_path: str) -> None:
         path = root / relative_path
         artifacts[relative_path] = {
-            "sha256": _file_sha256(path),
+            "sha256": sha256_file(path),
             "bytes": path.stat().st_size,
         }
 
