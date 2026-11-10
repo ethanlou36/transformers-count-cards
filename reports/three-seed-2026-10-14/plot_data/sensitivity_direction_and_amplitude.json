@@ -1,0 +1,27 @@
+{
+  "status": "COMPLETE",
+  "caption": "Amplitude is shown separately from directional alignment; no diagonal or Frobenius normalization is applied to the signed matrices. These display reductions are recomputed from collector-verified matrices.",
+  "data": [
+    {
+      "training_seed": 0,
+      "model_frobenius_norm": 0.05094916466947942,
+      "oracle_frobenius_norm": 0.10829599058039686,
+      "norm_ratio": 0.4704621509662977,
+      "cosine": 0.895193312499873
+    },
+    {
+      "training_seed": 1,
+      "model_frobenius_norm": 0.05238462675880555,
+      "oracle_frobenius_norm": 0.10829599058039686,
+      "norm_ratio": 0.48371713927780374,
+      "cosine": 0.9066788101257083
+    },
+    {
+      "training_seed": 2,
+      "model_frobenius_norm": 0.05112144096851192,
+      "oracle_frobenius_norm": 0.10829599058039686,
+      "norm_ratio": 0.47205294207600734,
+      "cosine": 0.9393199333757732
+    }
+  ]
+}

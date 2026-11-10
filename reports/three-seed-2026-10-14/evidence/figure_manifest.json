@@ -1,0 +1,154 @@
+{
+  "schema_version": "jackgpt-figure-manifest-v1",
+  "status": "INCOMPLETE",
+  "collection_status": "INCOMPLETE",
+  "omitted_figures": [
+    "training_dynamics"
+  ],
+  "retained_figure_status": "COMPLETE",
+  "mode": "render",
+  "source_commit": "6309918eea9384e195db794007a6de39554b5d03",
+  "renderer_sha256": "2db6a439eab035350347654d14d0df7acf8f571a3214a7dbc5647f197d889f5a",
+  "inputs": {
+    "results/collection_final_headline_20261013/collection_report.json": "2ea7ecb1038abd109013a5abd08a75f5b75dbd205e6d637b5c2abe12ced1fb40",
+    "results/collection_final_headline_20261013/aggregate/aggregate_results.json": "c59d365e79de8b58db6eea12f800684a5c7f45f36507ec67f51a46b1f51ba2bd",
+    "results/collection_final_headline_20261013/expected_metric_groups.json": "46b2ea4770501be7bc9c752f2cb460334b98e792753b702952ada0c40a753e7e",
+    "results/collection_final_headline_20261013/paper_comparison_36_rows.json": "478a7652d7d1cf3524c615760d12cb625d2d10ae6deb1cdae57f51df61d4fd9c",
+    "results/collection_final_headline_20261013/verified_figure_series.json": "e46af59b18e40419d9d49ea0474535a7d3db1d6d4eb7a5e7765f260d99926ac2"
+  },
+  "figures": [
+    {
+      "id": "main_probes_finite_iid",
+      "status": "COMPLETE",
+      "caption": "Card-position probes. Layer/alpha selected on 1200 fit shoes; evaluation on 800 held-out shoes. Black bars are sample SD across genuine seeds, not a confidence interval.",
+      "files": {
+        "figures/main_probes_finite_iid.png": "d02a93e077696c0eb16e4d5fa5797f860dd3fd2883d5a3bb662a6c4e4915bf6d",
+        "figures/main_probes_finite_iid.svg": "af541d3aa813140b9b139013d7d964e411e00c2d06fdaf041908150daf16bf39",
+        "figures/main_probes_finite_iid.pdf": "e514c7af8c60b2f0fbe1ead7e324536f404d5779a4500625f49448ba9a6d0b69",
+        "plot_data/main_probes_finite_iid.json": "090bfa424bade5060fdcf1d95abbe458960001a02f1bcee97be55b7354cf55a5"
+      }
+    },
+    {
+      "id": "count_validity_controls",
+      "status": "COMPLETE",
+      "caption": "Running-count controls. Initialization controls independently choose their layer using fit-only CV; their cross-seed SD is initialization variation. All displayed scores preserve negative R\u00b2 values.",
+      "files": {
+        "figures/count_validity_controls.png": "e37b9cd5b9e2b9ff4b2d8704fa067cf68817010fb93c9951f691380f0f79f23a",
+        "figures/count_validity_controls.svg": "83f4b33058a3f8e7528999cdd938637b666b634effa94eff80392b28d061e44b",
+        "figures/count_validity_controls.pdf": "52ed458c99c10e036517767564649d0c324cb47875b5b69cdfd457a1b4c952c9",
+        "plot_data/count_validity_controls.json": "37b0ba5f0fd6cc4234bdf03ee772170b785cee497d413c615b2dbc460513e462"
+      }
+    },
+    {
+      "id": "depth_band_controls",
+      "status": "COMPLETE",
+      "caption": "Running-count probe scores within declared physical-depth bands. Missing or undefined bands remain unplotted; no zero imputation.",
+      "files": {
+        "figures/depth_band_controls.png": "c7902d5d6d571580e103afe1a8c5b4157a35bbf893e0a5d2dcc3f059ccb59908",
+        "figures/depth_band_controls.svg": "10c5dffffc1b96a29ff5dee02201a536c8cb4cacb1a0e8ce8ce5f878d275f51a",
+        "figures/depth_band_controls.pdf": "cd257f29de5bae2f14b6cbd62940adf37fe3bd62e6084001b8ebffeb8c2f8625",
+        "plot_data/depth_band_controls.json": "5e8cd1df6c78afea33089761d2b16c45c9adfb79f00a7ddbca4b92e943cab400"
+      }
+    },
+    {
+      "id": "ev_on_action",
+      "status": "COMPLETE",
+      "caption": "Left: asymptotic 95% intervals (\u00b11.96 shoe-cluster SE), conditional on fixed checkpoint(s); matched shoe covariance retained for paired differences. Right: sample SD across 3 genuine training seeds, not CI. Scripted policies have no training SD. Fractions scaled by 100 only for plotting.",
+      "files": {
+        "figures/ev_on_action.png": "b1743edb095e3a743462fff854014c54dfa2acb2c6d645edff6c403f9457c068",
+        "figures/ev_on_action.svg": "4c997a4d61d55795dc85a1d83fc68149f87bb358e7372ada3ce290974bac6362",
+        "figures/ev_on_action.pdf": "d402f1c7e7d0e5d9607cb87ada2c6fac3e999cc17a6540ef5072c2bf5ce0f214",
+        "plot_data/ev_on_action.json": "71f23cc8824bea40e259a8956daee1a222e5ab6f21d1eaf8e5965d99390b2287"
+      }
+    },
+    {
+      "id": "ev_on_initial",
+      "status": "COMPLETE",
+      "caption": "Left: asymptotic 95% intervals (\u00b11.96 shoe-cluster SE), conditional on fixed checkpoint(s); matched shoe covariance retained for paired differences. Right: sample SD across 3 genuine training seeds, not CI. Scripted policies have no training SD. Fractions scaled by 100 only for plotting.",
+      "files": {
+        "figures/ev_on_initial.png": "fb6ac44f14bdb41a8d3131363c02f57970483aa9cf6ff6646a3cd6cf3d2657c5",
+        "figures/ev_on_initial.svg": "97e2a790a231ad222dd1707b8b9e110f0d01d22ea01592a60ef4dc88fe8d25bd",
+        "figures/ev_on_initial.pdf": "9cc29628b86ea7fafb28c32de6d6f3dc87bd8294718387b418708dec9a04685b",
+        "plot_data/ev_on_initial.json": "71f23cc8824bea40e259a8956daee1a222e5ab6f21d1eaf8e5965d99390b2287"
+      }
+    },
+    {
+      "id": "paired_ev_differences",
+      "status": "COMPLETE",
+      "caption": "Left: asymptotic 95% intervals (\u00b11.96 shoe-cluster SE), conditional on fixed checkpoint(s); matched shoe covariance retained for paired differences. Right: sample SD across 3 genuine training seeds, not CI. Scripted policies have no training SD. Fractions scaled by 100 only for plotting.",
+      "files": {
+        "figures/paired_ev_differences.png": "40f6f469534753ca8cca7b8f555ff4ae3e1bbfed92a81f5830de9998f9338d28",
+        "figures/paired_ev_differences.svg": "c58a6ed6dfd648ccb663a1f132a47e26982b14dacb18316d7275ff7b6966ae8c",
+        "figures/paired_ev_differences.pdf": "4b637c11ce3df210702d5c6b0c6363296f033d96b95ee938daf53984a16c50a1",
+        "plot_data/paired_ev_differences.json": "f6ec8b1d37db9185ad5b9f24f3a5385a4299412468f947167ce7c42b81569790"
+      }
+    },
+    {
+      "id": "matched_history",
+      "status": "COMPLETE",
+      "caption": "The same 75 engine-replayed matched pairs, five per 15 expert deviations, scored by six independently trained finite-deck models. Directional accuracy is the sign of the expert-oriented logit shift; individual accuracy uses 150 members and both-correct uses 75 pairs. Bars show sample SD across three training seeds.",
+      "files": {
+        "figures/matched_history.png": "ad8e1ad5f10d276600257297ef007a817da657bac609ea177dfce6e4a3637a12",
+        "figures/matched_history.svg": "3d65b3bc43b04b0d86ddfb7c1abb80985eabecab535caf9adfa445e1a68def49",
+        "figures/matched_history.pdf": "d642d508bdf9f8495d38e3b0f764a276467e3a81873d06cbafcf3895fcaa58d9",
+        "plot_data/matched_history.json": "4a955a35ec511270a24f6d9f10b24aad7a8bea47bf2ff1efdaff6574d58fba8e"
+      }
+    },
+    {
+      "id": "bet_patch_strength_curves",
+      "status": "COMPLETE",
+      "caption": "All 800 frozen held-out shoes per seed; calibration uses1200fit shoes. Bet patches are simultaneous at all ROUND_START positions; next-card patches affect only the current independent prefix. Relative \u03b1 and empirical absolute running-count axes are not interchanged.",
+      "files": {
+        "figures/bet_patch_strength_curves.png": "848a7cea0346a493c35316d1e3befd4c89128c3bc9ac2420baf183e3cced725b",
+        "figures/bet_patch_strength_curves.svg": "b817be61783b0b673f2c5173cc27da568493f0023bfe283e9c5fc308af78d373",
+        "figures/bet_patch_strength_curves.pdf": "f13b9d5547994e2e748e48d3e33ec1abb679a7c10c7b731688f669d492eb7fa1",
+        "plot_data/bet_patch_strength_curves.json": "f3421e912c135e934347a10270c97410abf3ddfb9ca2274bbbeb7972125f5afc"
+      }
+    },
+    {
+      "id": "nextcard_patch_strength_curves",
+      "status": "COMPLETE",
+      "caption": "All 800 frozen held-out shoes per seed; calibration uses1200fit shoes. Bet patches are simultaneous at all ROUND_START positions; next-card patches affect only the current independent prefix. Relative \u03b1 and empirical absolute running-count axes are not interchanged.",
+      "files": {
+        "figures/nextcard_patch_strength_curves.png": "48a44896d6cf590bdc613e914dc55ac3e01533005b16483f394f15cf39ecfbee",
+        "figures/nextcard_patch_strength_curves.svg": "a0d04632057effb1fc7bf652f1b75188d6c26ed125dc8d32d6d8202889afcedc",
+        "figures/nextcard_patch_strength_curves.pdf": "44cecfcd3eb37309dc99bdd61a952e22cfe0d97d3724a33db85acb44d0fda98f",
+        "plot_data/nextcard_patch_strength_curves.json": "a723c97327f66f1cd072e7269b31e8fdb274f6deeb754e5902f5ff3452daf92a"
+      }
+    },
+    {
+      "id": "sensitivity_signed_matrices",
+      "status": "COMPLETE",
+      "caption": "Unnormalized signed10\u00d710 matrices share a symmetric color scale. Model central FD\u00b11 and oracle derivative differ in finite-step convention; the full comparator table also retains the exact central oracle. Oracle composition includes hidden-hole depletion and is not the model's public-history Bayes distribution.",
+      "files": {
+        "figures/sensitivity_signed_matrices.png": "b28a826fb6eaf0c472c8950f759d123a264f8671015287a2056026e814b2f2b5",
+        "figures/sensitivity_signed_matrices.svg": "fcaf26a5bcf3c75d9ef919758bc5e77df4da1366159bccee2dcb76844f4213d2",
+        "figures/sensitivity_signed_matrices.pdf": "0a6e91b3fede775ac7970db83c2e9a369f95ca6ea55ab0853b25f1cad52a4ff9",
+        "plot_data/sensitivity_signed_matrices.json": "d2328e42e3cc7067603b69a0f385eb5d64967ebe64442547b0648056a5b03dde"
+      }
+    },
+    {
+      "id": "sensitivity_direction_and_amplitude",
+      "status": "COMPLETE",
+      "caption": "Amplitude is shown separately from directional alignment; no diagonal or Frobenius normalization is applied to the signed matrices. These display reductions are recomputed from collector-verified matrices.",
+      "files": {
+        "figures/sensitivity_direction_and_amplitude.png": "b89a5823207d271e4f8bd734caf686b8add1199d17a19b564a2e0d8848338291",
+        "figures/sensitivity_direction_and_amplitude.svg": "50b37bd604607127842d3f4e39e68c5c9a667f5add832a31907b91a8aabd0ec9",
+        "figures/sensitivity_direction_and_amplitude.pdf": "370176a0eafbc2cea59608f3ed44447e03f29bca749a6a9b507e6be5019a80f3",
+        "plot_data/sensitivity_direction_and_amplitude.json": "c94b7acd97e6de80016051fd54ea2565e7e01545d7908a04c8938bfd0eaf97d2"
+      }
+    }
+  ],
+  "python_executable": "python3",
+  "python_version": "3.13.2 (v3.13.2:4f8bb3947cf, Feb  4 2025, 11:51:10) [Clang 15.0.0 (clang-1500.3.9.4)]",
+  "packages": {
+    "matplotlib": "3.10.1",
+    "numpy": "2.4.6"
+  },
+  "library_dir": null,
+  "matplotlib_module": "matplotlib/__init__.py",
+  "numpy_module": "numpy/__init__.py",
+  "reproduction_command": "python3 scripts/render_replication_figures_headline_v2.py render --workspace . --collection-report results/collection_final_headline_20261013/collection_report.json --report-sha256 2ea7ecb1038abd109013a5abd08a75f5b75dbd205e6d637b5c2abe12ced1fb40 --output figures/final_headline_20261013",
+  "report_sha256": "48a2bf41bd4aba4c7c2b2c5a0b03714cedcebaff1018b8894039807c59b12fe0",
+  "uncertainty_policy": "Never combine shoe CI with training SD; scripted baselines have no training SD; incomplete groups remain blank."
+}

@@ -1,0 +1,295 @@
+{
+  "status": "COMPLETE",
+  "caption": "Left: asymptotic 95% intervals (\u00b11.96 shoe-cluster SE), conditional on fixed checkpoint(s); matched shoe covariance retained for paired differences. Right: sample SD across 3 genuine training seeds, not CI. Scripted policies have no training SD. Fractions scaled by 100 only for plotting.",
+  "data": [
+    {
+      "protocol_id": "corrected-release-anchored-20261011-v1",
+      "condition": "l1_intact",
+      "training_seed": 0,
+      "n_shoes": 150000,
+      "n_hands": 1089315,
+      "actual_shoe_seed_sha256": "679df22878b444fe33b78ee36c88f345404955953a65de459b08464070a60f3f",
+      "ev_on_action": 0.014349446441895427,
+      "ev_action_shoe_cluster_se": 0.001390137576919182,
+      "ev_action_normal_ci95": [
+        0.01162477679113383,
+        0.017074116092657025
+      ],
+      "ev_on_initial": 0.01581801590872829,
+      "ev_initial_shoe_cluster_se": 0.001533223327916809,
+      "uncertainty": "gameplay sampling conditional on this fixed checkpoint"
+    },
+    {
+      "protocol_id": "corrected-release-anchored-20261011-v1",
+      "condition": "l1_intact",
+      "training_seed": 1,
+      "n_shoes": 150000,
+      "n_hands": 1088628,
+      "actual_shoe_seed_sha256": "679df22878b444fe33b78ee36c88f345404955953a65de459b08464070a60f3f",
+      "ev_on_action": 0.014439232662297373,
+      "ev_action_shoe_cluster_se": 0.0013919397480016882,
+      "ev_action_normal_ci95": [
+        0.011711030756214064,
+        0.01716743456838068
+      ],
+      "ev_on_initial": 0.01589940097586321,
+      "ev_initial_shoe_cluster_se": 0.0015335230041288708,
+      "uncertainty": "gameplay sampling conditional on this fixed checkpoint"
+    },
+    {
+      "protocol_id": "corrected-release-anchored-20261011-v1",
+      "condition": "l1_intact",
+      "training_seed": 2,
+      "n_shoes": 150000,
+      "n_hands": 1088709,
+      "actual_shoe_seed_sha256": "679df22878b444fe33b78ee36c88f345404955953a65de459b08464070a60f3f",
+      "ev_on_action": 0.014691076066808494,
+      "ev_action_shoe_cluster_se": 0.0013927464557887304,
+      "ev_action_normal_ci95": [
+        0.011961293013462583,
+        0.017420859120154404
+      ],
+      "ev_on_initial": 0.016175146479941747,
+      "ev_initial_shoe_cluster_se": 0.001534271579521699,
+      "uncertainty": "gameplay sampling conditional on this fixed checkpoint"
+    },
+    {
+      "protocol_id": "corrected-release-anchored-20261011-v1",
+      "condition": "l1_count_ablated",
+      "training_seed": 0,
+      "n_shoes": 150000,
+      "n_hands": 1094201,
+      "actual_shoe_seed_sha256": "679df22878b444fe33b78ee36c88f345404955953a65de459b08464070a60f3f",
+      "ev_on_action": -0.007241300565113489,
+      "ev_action_shoe_cluster_se": 0.001095653666896806,
+      "ev_action_normal_ci95": [
+        -0.00938878175223123,
+        -0.005093819377995749
+      ],
+      "ev_on_initial": -0.007901969806571263,
+      "ev_initial_shoe_cluster_se": 0.0011953547199397745,
+      "uncertainty": "gameplay sampling conditional on this fixed checkpoint"
+    },
+    {
+      "protocol_id": "corrected-release-anchored-20261011-v1",
+      "condition": "l1_count_ablated",
+      "training_seed": 1,
+      "n_shoes": 150000,
+      "n_hands": 1091340,
+      "actual_shoe_seed_sha256": "679df22878b444fe33b78ee36c88f345404955953a65de459b08464070a60f3f",
+      "ev_on_action": -0.00011902620950629164,
+      "ev_action_shoe_cluster_se": 0.0011403689818299586,
+      "ev_action_normal_ci95": [
+        -0.0023541494138930104,
+        0.002116096994880427
+      ],
+      "ev_on_initial": -0.00013054220311724794,
+      "ev_initial_shoe_cluster_se": 0.0012506967888582159,
+      "uncertainty": "gameplay sampling conditional on this fixed checkpoint"
+    },
+    {
+      "protocol_id": "corrected-release-anchored-20261011-v1",
+      "condition": "l1_count_ablated",
+      "training_seed": 2,
+      "n_shoes": 150000,
+      "n_hands": 1094182,
+      "actual_shoe_seed_sha256": "679df22878b444fe33b78ee36c88f345404955953a65de459b08464070a60f3f",
+      "ev_on_action": 0.009858439342719946,
+      "ev_action_shoe_cluster_se": 0.001417558415294445,
+      "ev_action_normal_ci95": [
+        0.007080024848742834,
+        0.012636853836697059
+      ],
+      "ev_on_initial": 0.010677932319027512,
+      "ev_initial_shoe_cluster_se": 0.0015359310395843563,
+      "uncertainty": "gameplay sampling conditional on this fixed checkpoint"
+    },
+    {
+      "protocol_id": "corrected-release-anchored-20261011-v1",
+      "condition": "l1_random_ablated_k1",
+      "training_seed": 1,
+      "n_shoes": 150000,
+      "n_hands": 1088394,
+      "actual_shoe_seed_sha256": "679df22878b444fe33b78ee36c88f345404955953a65de459b08464070a60f3f",
+      "ev_on_action": 0.014242783057046075,
+      "ev_action_shoe_cluster_se": 0.0013921340126051107,
+      "ev_action_normal_ci95": [
+        0.011514200392340058,
+        0.01697136572175209
+      ],
+      "ev_on_initial": 0.015688273821508673,
+      "ev_initial_shoe_cluster_se": 0.0015342369344665016,
+      "uncertainty": "gameplay sampling conditional on this fixed checkpoint"
+    },
+    {
+      "protocol_id": "corrected-release-anchored-20261011-v1",
+      "condition": "l1_random_ablated_k1",
+      "training_seed": 2,
+      "n_shoes": 150000,
+      "n_hands": 1088746,
+      "actual_shoe_seed_sha256": "679df22878b444fe33b78ee36c88f345404955953a65de459b08464070a60f3f",
+      "ev_on_action": 0.014795069972211883,
+      "ev_action_shoe_cluster_se": 0.0013926829385406641,
+      "ev_action_normal_ci95": [
+        0.012065411412672181,
+        0.017524728531751584
+      ],
+      "ev_on_initial": 0.01629001900134391,
+      "ev_initial_shoe_cluster_se": 0.0015342418029647986,
+      "uncertainty": "gameplay sampling conditional on this fixed checkpoint"
+    },
+    {
+      "protocol_id": "corrected-release-anchored-20261011-v1",
+      "condition": "l1_random_ablated_k1",
+      "training_seed": 0,
+      "n_shoes": 150000,
+      "n_hands": 1089332,
+      "actual_shoe_seed_sha256": "679df22878b444fe33b78ee36c88f345404955953a65de459b08464070a60f3f",
+      "ev_on_action": 0.014284910658746033,
+      "ev_action_shoe_cluster_se": 0.0013901050115485711,
+      "ev_action_normal_ci95": [
+        0.011560304836110834,
+        0.017009516481381232
+      ],
+      "ev_on_initial": 0.015750716259438833,
+      "ev_initial_shoe_cluster_se": 0.0015335587700820317,
+      "uncertainty": "gameplay sampling conditional on this fixed checkpoint"
+    },
+    {
+      "protocol_id": "corrected-release-anchored-20261011-v1",
+      "condition": "l1_compvar_ablated_k1",
+      "training_seed": 0,
+      "n_shoes": 150000,
+      "n_hands": 1087792,
+      "actual_shoe_seed_sha256": "679df22878b444fe33b78ee36c88f345404955953a65de459b08464070a60f3f",
+      "ev_on_action": 0.009620004737251718,
+      "ev_action_shoe_cluster_se": 0.001396897511352005,
+      "ev_action_normal_ci95": [
+        0.006882085615001788,
+        0.012357923859501647
+      ],
+      "ev_on_initial": 0.010641069970876658,
+      "ev_initial_shoe_cluster_se": 0.0015456759294816276,
+      "uncertainty": "gameplay sampling conditional on this fixed checkpoint"
+    },
+    {
+      "protocol_id": "corrected-release-anchored-20261011-v1",
+      "condition": "l1_compvar_ablated_k1",
+      "training_seed": 1,
+      "n_shoes": 150000,
+      "n_hands": 1096857,
+      "actual_shoe_seed_sha256": "679df22878b444fe33b78ee36c88f345404955953a65de459b08464070a60f3f",
+      "ev_on_action": -0.007400839000105648,
+      "ev_action_shoe_cluster_se": 0.0013926612747611157,
+      "ev_action_normal_ci95": [
+        -0.010130455098637435,
+        -0.004671222901573862
+      ],
+      "ev_on_initial": -0.008248424140667994,
+      "ev_initial_shoe_cluster_se": 0.0015519178083418068,
+      "uncertainty": "gameplay sampling conditional on this fixed checkpoint"
+    },
+    {
+      "protocol_id": "corrected-release-anchored-20261011-v1",
+      "condition": "l1_compvar_ablated_k1",
+      "training_seed": 2,
+      "n_shoes": 150000,
+      "n_hands": 1089573,
+      "actual_shoe_seed_sha256": "679df22878b444fe33b78ee36c88f345404955953a65de459b08464070a60f3f",
+      "ev_on_action": 0.014322898942395322,
+      "ev_action_shoe_cluster_se": 0.0014130754003368606,
+      "ev_action_normal_ci95": [
+        0.011553271157735075,
+        0.01709252672705557
+      ],
+      "ev_on_initial": 0.015684483048847838,
+      "ev_initial_shoe_cluster_se": 0.0015482205660784696,
+      "uncertainty": "gameplay sampling conditional on this fixed checkpoint"
+    },
+    {
+      "protocol_id": "corrected-release-anchored-20261011-v1",
+      "condition": "l0_intact",
+      "training_seed": 0,
+      "n_shoes": 150000,
+      "n_hands": 1086252,
+      "actual_shoe_seed_sha256": "679df22878b444fe33b78ee36c88f345404955953a65de459b08464070a60f3f",
+      "ev_on_action": -0.005852888558017379,
+      "ev_action_shoe_cluster_se": 0.0009773867112802207,
+      "ev_action_normal_ci95": [
+        -0.007768566512126612,
+        -0.003937210603908147
+      ],
+      "ev_on_initial": -0.006499412659309258,
+      "ev_initial_shoe_cluster_se": 0.001085136770650978,
+      "uncertainty": "gameplay sampling conditional on this fixed checkpoint"
+    },
+    {
+      "protocol_id": "corrected-release-anchored-20261011-v1",
+      "condition": "l0_intact",
+      "training_seed": 1,
+      "n_shoes": 150000,
+      "n_hands": 1086149,
+      "actual_shoe_seed_sha256": "679df22878b444fe33b78ee36c88f345404955953a65de459b08464070a60f3f",
+      "ev_on_action": -0.005878890137178249,
+      "ev_action_shoe_cluster_se": 0.0009773980100666975,
+      "ev_action_normal_ci95": [
+        -0.007794590236908976,
+        -0.003963190037447523
+      ],
+      "ev_on_initial": -0.006528109863379702,
+      "ev_initial_shoe_cluster_se": 0.0010851184728020533,
+      "uncertainty": "gameplay sampling conditional on this fixed checkpoint"
+    },
+    {
+      "protocol_id": "corrected-release-anchored-20261011-v1",
+      "condition": "l0_intact",
+      "training_seed": 2,
+      "n_shoes": 150000,
+      "n_hands": 1086333,
+      "actual_shoe_seed_sha256": "679df22878b444fe33b78ee36c88f345404955953a65de459b08464070a60f3f",
+      "ev_on_action": -0.00594940066647877,
+      "ev_action_shoe_cluster_se": 0.0009775007938399658,
+      "ev_action_normal_ci95": [
+        -0.007865302222405102,
+        -0.004033499110552437
+      ],
+      "ev_on_initial": -0.006606629827134037,
+      "ev_initial_shoe_cluster_se": 0.0010852665721174455,
+      "uncertainty": "gameplay sampling conditional on this fixed checkpoint"
+    },
+    {
+      "protocol_id": "corrected-release-anchored-20261011-v1",
+      "condition": "hilo_expert",
+      "training_seed": null,
+      "n_shoes": 150000,
+      "n_hands": 1088925,
+      "actual_shoe_seed_sha256": "679df22878b444fe33b78ee36c88f345404955953a65de459b08464070a60f3f",
+      "ev_on_action": 0.015023346817974282,
+      "ev_action_shoe_cluster_se": 0.0013912047513219932,
+      "ev_action_normal_ci95": [
+        0.012296585505383175,
+        0.01775010813056539
+      ],
+      "ev_on_initial": 0.016546235414463803,
+      "ev_initial_shoe_cluster_se": 0.0015330858611668993,
+      "uncertainty": "gameplay sampling conditional on this fixed checkpoint"
+    },
+    {
+      "protocol_id": "corrected-release-anchored-20261011-v1",
+      "condition": "basic_bot",
+      "training_seed": null,
+      "n_shoes": 150000,
+      "n_hands": 1086208,
+      "actual_shoe_seed_sha256": "679df22878b444fe33b78ee36c88f345404955953a65de459b08464070a60f3f",
+      "ev_on_action": -0.005797613303420866,
+      "ev_action_shoe_cluster_se": 0.000977510344761929,
+      "ev_action_normal_ci95": [
+        -0.007713533579154247,
+        -0.0038816930276874845
+      ],
+      "ev_on_initial": -0.006437993459816168,
+      "ev_initial_shoe_cluster_se": 0.0010852696918788574,
+      "uncertainty": "gameplay sampling conditional on this fixed checkpoint"
+    }
+  ]
+}

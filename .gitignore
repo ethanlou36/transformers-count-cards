@@ -1,0 +1,26 @@
+.DS_Store
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+.venv/
+build/
+dist/
+*.egg-info/
+
+/runs/
+
+/data/*
+!/data/fixtures/
+/data/fixtures/*
+!/data/fixtures/blackjack-v1-100-shoes/
+!/data/fixtures/blackjack-v1-100-shoes/**
+
+# Local environment and archive pointers
+.env
+.env.*
+!.env.example
+.ipynb_checkpoints/

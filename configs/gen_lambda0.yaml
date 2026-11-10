@@ -1,0 +1,7 @@
+num_shoes: 100000
+seed: 7700123
+chunk_size: 5000
+split: lambda0
+release_dir: data/full_lambda0
+output: data/merged_lambda0
+policy: count-blind

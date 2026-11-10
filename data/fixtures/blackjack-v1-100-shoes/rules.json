@@ -1,0 +1,55 @@
+{
+  "money_unit": "integer half-unit ticks",
+  "rules": {
+    "american_hole_card": true,
+    "blackjack_profit_half_units_per_bet_unit": 3,
+    "cut_card_index": 39,
+    "deal_without_replacement": true,
+    "dealer_peeks": true,
+    "dealer_stands_soft_17": true,
+    "double_allowed": true,
+    "double_initial_two_only": true,
+    "initial_deal_order": [
+      "PLAYER_FIRST",
+      "DEALER_UPCARD",
+      "PLAYER_SECOND",
+      "DEALER_HOLE"
+    ],
+    "insurance_allowed": false,
+    "minimum_cards_to_start_round": 16,
+    "num_decks": 1,
+    "num_players": 1,
+    "rank_multiplicities": [
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      16
+    ],
+    "rank_order": [
+      "A",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9",
+      "T"
+    ],
+    "ranks_only": true,
+    "reveal_hole_on_player_blackjack": false,
+    "reveal_hole_on_player_bust": false,
+    "shuffle_algorithm": "pcg32-xsh-rr-rejection-fisher-yates-v1",
+    "split_allowed": false,
+    "suits_affect_play": false,
+    "surrender_allowed": false
+  },
+  "rules_version": "single-deck-s17-v1"
+}

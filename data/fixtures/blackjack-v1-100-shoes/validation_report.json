@@ -1,0 +1,80 @@
+{
+  "action_frequencies": {
+    "DOUBLE": 91,
+    "HIT": 372,
+    "STAND": 424
+  },
+  "action_source_frequencies": {
+    "BASIC_STRATEGY": 855,
+    "COUNT_DEVIATION": 32,
+    "NATURAL_RESOLUTION": 76
+  },
+  "average_rounds_per_shoe": 7.25,
+  "average_tokens_per_shoe": 87.52,
+  "bet_bucket_frequencies": {
+    "BET_1": 470,
+    "BET_2": 50,
+    "BET_4": 66,
+    "BET_6": 23,
+    "BET_8": 116
+  },
+  "blackjack_outcomes": {
+    "BLACKJACK_PUSH": 1,
+    "DEALER_BLACKJACK": 48,
+    "PLAYER_BLACKJACK": 27
+  },
+  "count_transition_error_count": 0,
+  "decision_true_count_distribution": {
+    "count": 1612,
+    "maximum": 27.529411764705884,
+    "mean": -0.06206173955218583,
+    "median": 0.0,
+    "minimum": -23.11111111111111,
+    "p05": -9.454545454545455,
+    "p25": -2.888888888888889,
+    "p75": 2.6666666666666665,
+    "p95": 9.454545454545455
+  },
+  "deviation_activations": 32,
+  "deviation_matches": 98,
+  "errors": [],
+  "event_identity_error_count": 0,
+  "hidden_card_leak_count": 0,
+  "illegal_action_count": 0,
+  "losses": 351,
+  "number_of_rounds": 725,
+  "number_of_shoes": 100,
+  "number_of_tokens": 8752,
+  "outcome_frequencies": {
+    "BLACKJACK_PUSH": 1,
+    "DEALER_BLACKJACK": 48,
+    "DEALER_BUST": 188,
+    "LOSS": 199,
+    "PLAYER_BLACKJACK": 27,
+    "PLAYER_BUST": 104,
+    "PUSH": 49,
+    "WIN": 109
+  },
+  "passed": true,
+  "physical_transition_error_count": 0,
+  "policy_error_count": 0,
+  "profit_per_initial_unit_wagered": -0.049210526315789475,
+  "profit_per_round_95_percent_confidence_interval": {
+    "lower": -0.4120712645105836,
+    "mean": -0.1289655172413793,
+    "method": "shoe_clustered_ratio_normal_95",
+    "sample_size": 100,
+    "standard_error": 0.14444170779041035,
+    "upper": 0.15414023002782498
+  },
+  "profit_per_round_units": -0.1289655172413793,
+  "profit_per_total_unit_wagered": -0.04365079365079365,
+  "pushes": 50,
+  "summary_error_count": 0,
+  "total_profit_half_units": -187,
+  "true_count_error_count": 0,
+  "validation_version": "validation-v1",
+  "vocabulary_error_count": 0,
+  "warnings": [],
+  "wins": 324
+}

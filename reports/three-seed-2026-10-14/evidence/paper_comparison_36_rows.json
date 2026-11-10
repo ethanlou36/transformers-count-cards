@@ -1,0 +1,2732 @@
+{
+  "scope": "CORRECTED_THREE_SEED_REPLICATION",
+  "rows": [
+    {
+      "paper": {
+        "id": "rc_l1",
+        "condition": "finite_lambda1",
+        "metric": "running_count_r2",
+        "paper_value": 0.98,
+        "paper_page": 4,
+        "sample": {
+          "paper_pool_n": 2000,
+          "unit": "shoes",
+          "exact_fit_vs_eval_split": "not specified in PDF",
+          "positions": "exposed-card token positions",
+          "independence": "split by shoe"
+        },
+        "unit": "dimensionless",
+        "paper_training_seed_count": 3,
+        "paper_seed_sd": null,
+        "replication_requirement": "paper",
+        "notes": "Figure 1 rounds finite \u03bb=0 to 0.96. Infinite-deck training seed count not specified.",
+        "source_candidate": null
+      },
+      "mappings": [
+        {
+          "condition": "finite_lambda1",
+          "metric": "probe.card.trained.running_count.r2",
+          "status": "complete",
+          "mean": 0.9835913108862813,
+          "training_seed_sample_sd": 0.00020861753054905537,
+          "per_seed": {
+            "0": 0.983472215848133,
+            "1": 0.9834695201772601,
+            "2": 0.9838321966334507
+          },
+          "n_training_seeds": 3,
+          "scale_from_aggregator": 1,
+          "sample_unit": "positions"
+        }
+      ],
+      "status": "COMPLETE_CORRECTED_PROTOCOL",
+      "reason": null,
+      "required_metric_groups": 1,
+      "completed_metric_groups": 1,
+      "verified_series_reference": null,
+      "comparison_notes": [
+        "Replicated values use corrected fit-only grouped selection; historical values are references only."
+      ]
+    },
+    {
+      "paper": {
+        "id": "rc_random_finite_lambda1",
+        "condition": "finite_lambda1_random_init",
+        "metric": "running_count_r2",
+        "paper_value": 0.46,
+        "paper_page": 4,
+        "sample": {
+          "paper_pool_n": 2000,
+          "unit": "shoes",
+          "exact_fit_vs_eval_split": "not specified in PDF",
+          "positions": "exposed-card token positions",
+          "independence": "split by shoe"
+        },
+        "unit": "dimensionless",
+        "paper_training_seed_count": null,
+        "paper_seed_sd": null,
+        "replication_requirement": "paper",
+        "notes": "Compare at the trained-selected layer; historical prose separately maximizes random baseline and gives \u22480.496 for \u03bb=1.",
+        "source_candidate": null
+      },
+      "mappings": [
+        {
+          "condition": "finite_lambda1",
+          "metric": "probe.card.random_init.running_count.r2",
+          "status": "complete",
+          "mean": 0.4917733920231257,
+          "training_seed_sample_sd": 0.0031095153348995853,
+          "per_seed": {
+            "0": 0.4931948317553686,
+            "1": 0.49391814364761255,
+            "2": 0.488207200666396
+          },
+          "n_training_seeds": 3,
+          "scale_from_aggregator": 1,
+          "sample_unit": "positions"
+        }
+      ],
+      "status": "COMPLETE_CORRECTED_PROTOCOL",
+      "reason": null,
+      "required_metric_groups": 1,
+      "completed_metric_groups": 1,
+      "verified_series_reference": null,
+      "comparison_notes": [
+        "Replicated values use corrected fit-only grouped selection; historical values are references only.",
+        "Random initialization independently selects layer by fit-only CV; paper comparison's trained-selected-layer convention differs. SD spans initialization seeds, not training outcomes."
+      ]
+    },
+    {
+      "paper": {
+        "id": "rc_l0",
+        "condition": "finite_lambda0",
+        "metric": "running_count_r2",
+        "paper_value": 0.963,
+        "paper_page": 4,
+        "sample": {
+          "paper_pool_n": 2000,
+          "unit": "shoes",
+          "exact_fit_vs_eval_split": "not specified in PDF",
+          "positions": "exposed-card token positions",
+          "independence": "split by shoe"
+        },
+        "unit": "dimensionless",
+        "paper_training_seed_count": 3,
+        "paper_seed_sd": null,
+        "replication_requirement": "paper",
+        "notes": "Figure 1 rounds finite \u03bb=0 to 0.96. Infinite-deck training seed count not specified.",
+        "source_candidate": null
+      },
+      "mappings": [
+        {
+          "condition": "finite_lambda0",
+          "metric": "probe.card.trained.running_count.r2",
+          "status": "complete",
+          "mean": 0.9603226017568597,
+          "training_seed_sample_sd": 0.00336856466093986,
+          "per_seed": {
+            "0": 0.957223173252522,
+            "1": 0.9598370309958651,
+            "2": 0.9639076010221919
+          },
+          "n_training_seeds": 3,
+          "scale_from_aggregator": 1,
+          "sample_unit": "positions"
+        }
+      ],
+      "status": "COMPLETE_CORRECTED_PROTOCOL",
+      "reason": null,
+      "required_metric_groups": 1,
+      "completed_metric_groups": 1,
+      "verified_series_reference": null,
+      "comparison_notes": [
+        "Replicated values use corrected fit-only grouped selection; historical values are references only."
+      ]
+    },
+    {
+      "paper": {
+        "id": "rc_random_finite_lambda0",
+        "condition": "finite_lambda0_random_init",
+        "metric": "running_count_r2",
+        "paper_value": 0.37,
+        "paper_page": 4,
+        "sample": {
+          "paper_pool_n": 2000,
+          "unit": "shoes",
+          "exact_fit_vs_eval_split": "not specified in PDF",
+          "positions": "exposed-card token positions",
+          "independence": "split by shoe"
+        },
+        "unit": "dimensionless",
+        "paper_training_seed_count": null,
+        "paper_seed_sd": null,
+        "replication_requirement": "paper",
+        "notes": "Compare at the trained-selected layer; historical prose separately maximizes random baseline and gives \u22480.496 for \u03bb=1.",
+        "source_candidate": null
+      },
+      "mappings": [
+        {
+          "condition": "finite_lambda0",
+          "metric": "probe.card.random_init.running_count.r2",
+          "status": "complete",
+          "mean": 0.3686379856664512,
+          "training_seed_sample_sd": 0.029449357236028324,
+          "per_seed": {
+            "0": 0.35273821243000125,
+            "1": 0.35055591980532264,
+            "2": 0.4026198247640296
+          },
+          "n_training_seeds": 3,
+          "scale_from_aggregator": 1,
+          "sample_unit": "positions"
+        }
+      ],
+      "status": "COMPLETE_CORRECTED_PROTOCOL",
+      "reason": null,
+      "required_metric_groups": 1,
+      "completed_metric_groups": 1,
+      "verified_series_reference": null,
+      "comparison_notes": [
+        "Replicated values use corrected fit-only grouped selection; historical values are references only.",
+        "Random initialization independently selects layer by fit-only CV; paper comparison's trained-selected-layer convention differs. SD spans initialization seeds, not training outcomes."
+      ]
+    },
+    {
+      "paper": {
+        "id": "rc_inf",
+        "condition": "infinite_lambda0",
+        "metric": "running_count_r2",
+        "paper_value": 0.69,
+        "paper_page": 4,
+        "sample": {
+          "paper_pool_n": 2000,
+          "unit": "shoes",
+          "exact_fit_vs_eval_split": "not specified in PDF",
+          "positions": "exposed-card token positions",
+          "independence": "split by shoe"
+        },
+        "unit": "dimensionless",
+        "paper_training_seed_count": null,
+        "paper_seed_sd": null,
+        "replication_requirement": "paper",
+        "notes": "Figure 1 rounds finite \u03bb=0 to 0.96. Infinite-deck training seed count not specified.",
+        "source_candidate": null
+      },
+      "mappings": [
+        {
+          "condition": "infinite_lambda0",
+          "metric": "probe.card.trained.running_count.r2",
+          "status": "complete",
+          "mean": 0.7577999498772082,
+          "training_seed_sample_sd": 0.02785455369043985,
+          "per_seed": {
+            "0": 0.7846274952560024,
+            "1": 0.7290210130817838,
+            "2": 0.7597513412938384
+          },
+          "n_training_seeds": 3,
+          "scale_from_aggregator": 1,
+          "sample_unit": "positions"
+        }
+      ],
+      "status": "COMPLETE_CORRECTED_PROTOCOL",
+      "reason": null,
+      "required_metric_groups": 1,
+      "completed_metric_groups": 1,
+      "verified_series_reference": null,
+      "comparison_notes": [
+        "Replicated values use corrected fit-only grouped selection; historical values are references only."
+      ]
+    },
+    {
+      "paper": {
+        "id": "rc_random_infinite_lambda0",
+        "condition": "infinite_lambda0_random_init",
+        "metric": "running_count_r2",
+        "paper_value": 0.49,
+        "paper_page": 4,
+        "sample": {
+          "paper_pool_n": 2000,
+          "unit": "shoes",
+          "exact_fit_vs_eval_split": "not specified in PDF",
+          "positions": "exposed-card token positions",
+          "independence": "split by shoe"
+        },
+        "unit": "dimensionless",
+        "paper_training_seed_count": null,
+        "paper_seed_sd": null,
+        "replication_requirement": "paper",
+        "notes": "Compare at the trained-selected layer; historical prose separately maximizes random baseline and gives \u22480.496 for \u03bb=1.",
+        "source_candidate": null
+      },
+      "mappings": [
+        {
+          "condition": "infinite_lambda0",
+          "metric": "probe.card.random_init.running_count.r2",
+          "status": "complete",
+          "mean": 0.4492304899333361,
+          "training_seed_sample_sd": 0.015470950546800812,
+          "per_seed": {
+            "0": 0.4449117025029352,
+            "1": 0.4363778429088564,
+            "2": 0.4664019243882166
+          },
+          "n_training_seeds": 3,
+          "scale_from_aggregator": 1,
+          "sample_unit": "positions"
+        }
+      ],
+      "status": "COMPLETE_CORRECTED_PROTOCOL",
+      "reason": null,
+      "required_metric_groups": 1,
+      "completed_metric_groups": 1,
+      "verified_series_reference": null,
+      "comparison_notes": [
+        "Replicated values use corrected fit-only grouped selection; historical values are references only.",
+        "Random initialization independently selects layer by fit-only CV; paper comparison's trained-selected-layer convention differs. SD spans initialization seeds, not training outcomes."
+      ]
+    },
+    {
+      "paper": {
+        "id": "rc_shuffled_labels",
+        "condition": "finite_lambda1_and_lambda0",
+        "metric": "running_count_r2",
+        "paper_value": "near zero",
+        "paper_page": 4,
+        "sample": {
+          "paper_pool_n": 2000,
+          "unit": "shoes",
+          "exact_fit_vs_eval_split": "not specified in PDF",
+          "positions": "exposed-card token positions",
+          "independence": "split by shoe"
+        },
+        "unit": "dimensionless",
+        "paper_training_seed_count": null,
+        "paper_seed_sd": null,
+        "replication_requirement": "paper",
+        "notes": "PDF gives qualitative value only; source figures describe embedding baseline \u22480.06. Do not replace qualitative PDF statement with an invented zero.",
+        "source_candidate": null
+      },
+      "mappings": [
+        {
+          "condition": "finite_lambda1",
+          "metric": "probe.card.trained.shuffled_running_count.r2",
+          "status": "complete",
+          "mean": -0.004747083340809495,
+          "training_seed_sample_sd": 0.0003844715246574673,
+          "per_seed": {
+            "0": -0.00492686563168232,
+            "1": -0.005008727540948499,
+            "2": -0.004305656849797668
+          },
+          "n_training_seeds": 3,
+          "scale_from_aggregator": 1,
+          "sample_unit": "positions"
+        },
+        {
+          "condition": "finite_lambda0",
+          "metric": "probe.card.trained.shuffled_running_count.r2",
+          "status": "complete",
+          "mean": -0.00386135116705059,
+          "training_seed_sample_sd": 0.00010663606834186948,
+          "per_seed": {
+            "0": -0.003805085450437451,
+            "1": -0.003984335898938651,
+            "2": -0.0037946321517756676
+          },
+          "n_training_seeds": 3,
+          "scale_from_aggregator": 1,
+          "sample_unit": "positions"
+        }
+      ],
+      "status": "COMPLETE_CORRECTED_PROTOCOL",
+      "reason": null,
+      "required_metric_groups": 2,
+      "completed_metric_groups": 2,
+      "verified_series_reference": null,
+      "comparison_notes": [
+        "Replicated values use corrected fit-only grouped selection; historical values are references only."
+      ]
+    },
+    {
+      "paper": {
+        "id": "rc_embedding_only",
+        "condition": "finite_lambda1_and_lambda0",
+        "metric": "running_count_r2",
+        "paper_value": "near zero",
+        "paper_page": 4,
+        "sample": {
+          "paper_pool_n": 2000,
+          "unit": "shoes",
+          "exact_fit_vs_eval_split": "not specified in PDF",
+          "positions": "exposed-card token positions",
+          "independence": "split by shoe"
+        },
+        "unit": "dimensionless",
+        "paper_training_seed_count": null,
+        "paper_seed_sd": null,
+        "replication_requirement": "paper",
+        "notes": "PDF gives qualitative value only; source figures describe embedding baseline \u22480.06. Do not replace qualitative PDF statement with an invented zero.",
+        "source_candidate": null
+      },
+      "mappings": [
+        {
+          "condition": "finite_lambda1",
+          "metric": "probe.card.trained_embedding.running_count.r2",
+          "status": "complete",
+          "mean": 0.05530723216489186,
+          "training_seed_sample_sd": 4.843482766805675e-05,
+          "per_seed": {
+            "0": 0.055345372389227765,
+            "1": 0.05525273713216028,
+            "2": 0.05532358697328754
+          },
+          "n_training_seeds": 3,
+          "scale_from_aggregator": 1,
+          "sample_unit": "positions"
+        },
+        {
+          "condition": "finite_lambda0",
+          "metric": "probe.card.trained_embedding.running_count.r2",
+          "status": "complete",
+          "mean": 0.05482520852363001,
+          "training_seed_sample_sd": 5.0723927833549055e-05,
+          "per_seed": {
+            "0": 0.054793542175789134,
+            "1": 0.05479837029417911,
+            "2": 0.05488371310092177
+          },
+          "n_training_seeds": 3,
+          "scale_from_aggregator": 1,
+          "sample_unit": "positions"
+        }
+      ],
+      "status": "COMPLETE_CORRECTED_PROTOCOL",
+      "reason": null,
+      "required_metric_groups": 2,
+      "completed_metric_groups": 2,
+      "verified_series_reference": null,
+      "comparison_notes": [
+        "Replicated values use corrected fit-only grouped selection; historical values are references only."
+      ]
+    },
+    {
+      "paper": {
+        "id": "changed_history_new",
+        "condition": "finite_lambda0",
+        "metric": "running_count_r2",
+        "paper_value": 0.84,
+        "paper_page": 4,
+        "sample": {
+          "paper_pool_n": null,
+          "artifact_n": 500,
+          "unit": "shoes"
+        },
+        "unit": "dimensionless",
+        "paper_training_seed_count": null,
+        "paper_seed_sd": null,
+        "replication_requirement": "paper",
+        "notes": "Model condition and 500 shoes recovered from Phase 6 report; PDF does not identify either explicitly. Refit probes on changed activations at same layer.",
+        "source_candidate": "runs/phase6-20260724-011719/PHASE6_REPORT.md"
+      },
+      "mappings": [
+        {
+          "condition": "finite_lambda0",
+          "metric": "changed_history_trained_permuted_permuted_running_count_r2",
+          "status": "complete",
+          "mean": 0.8796099983105375,
+          "training_seed_sample_sd": 0.045739208253996126,
+          "per_seed": {
+            "0": 0.8398686331990167,
+            "1": 0.9296061368131716,
+            "2": 0.8693552249194244
+          },
+          "n_training_seeds": 3,
+          "scale_from_aggregator": 1,
+          "sample_unit": "positions"
+        }
+      ],
+      "status": "COMPLETE_CORRECTED_PROTOCOL",
+      "reason": null,
+      "required_metric_groups": 1,
+      "completed_metric_groups": 1,
+      "verified_series_reference": null,
+      "comparison_notes": [
+        "Replicated values use corrected fit-only grouped selection; historical values are references only."
+      ]
+    },
+    {
+      "paper": {
+        "id": "changed_history_original",
+        "condition": "finite_lambda0",
+        "metric": "running_count_r2",
+        "paper_value": 0.305,
+        "paper_page": 4,
+        "sample": {
+          "paper_pool_n": null,
+          "artifact_n": 500,
+          "unit": "shoes"
+        },
+        "unit": "dimensionless",
+        "paper_training_seed_count": null,
+        "paper_seed_sd": null,
+        "replication_requirement": "paper",
+        "notes": "Original discarded history labels paired with changed-history activations.",
+        "source_candidate": "runs/phase6-20260724-011719/PHASE6_REPORT.md"
+      },
+      "mappings": [
+        {
+          "condition": "finite_lambda0",
+          "metric": "changed_history_trained_permuted_original_running_count_r2",
+          "status": "complete",
+          "mean": 0.38493978050482175,
+          "training_seed_sample_sd": 0.0100486570697637,
+          "per_seed": {
+            "0": 0.3746994969610179,
+            "1": 0.394785168684329,
+            "2": 0.3853346758691183
+          },
+          "n_training_seeds": 3,
+          "scale_from_aggregator": 1,
+          "sample_unit": "positions"
+        }
+      ],
+      "status": "COMPLETE_CORRECTED_PROTOCOL",
+      "reason": null,
+      "required_metric_groups": 1,
+      "completed_metric_groups": 1,
+      "verified_series_reference": null,
+      "comparison_notes": [
+        "Replicated values use corrected fit-only grouped selection; historical values are references only."
+      ]
+    },
+    {
+      "paper": {
+        "id": "composition_joint",
+        "condition": "finite_models",
+        "metric": "composition_variance_weighted_r2",
+        "paper_value": {
+          "min": 0.92,
+          "max": 0.95
+        },
+        "paper_page": 4,
+        "sample": {
+          "paper_pool_n": 2000,
+          "unit": "shoes",
+          "exact_fit_vs_eval_split": "not specified in PDF",
+          "positions": "exposed-card token positions",
+          "independence": "split by shoe"
+        },
+        "unit": "dimensionless",
+        "paper_training_seed_count": null,
+        "paper_seed_sd": null,
+        "replication_requirement": "paper",
+        "notes": "PDF reports a range rather than a model-by-seed breakdown.",
+        "source_candidate": null
+      },
+      "mappings": [
+        {
+          "condition": "finite_lambda1",
+          "metric": "probe.card.trained.remaining_composition.r2",
+          "status": "complete",
+          "mean": 0.9179786792717399,
+          "training_seed_sample_sd": 0.008423305332075654,
+          "per_seed": {
+            "0": 0.9085849048336688,
+            "1": 0.9204915738002303,
+            "2": 0.9248595591813208
+          },
+          "n_training_seeds": 3,
+          "scale_from_aggregator": 1,
+          "sample_unit": "positions"
+        },
+        {
+          "condition": "finite_lambda0",
+          "metric": "probe.card.trained.remaining_composition.r2",
+          "status": "complete",
+          "mean": 0.9344292156508798,
+          "training_seed_sample_sd": 0.010673635870880374,
+          "per_seed": {
+            "0": 0.9279957752033237,
+            "1": 0.9285418359350727,
+            "2": 0.9467500358142431
+          },
+          "n_training_seeds": 3,
+          "scale_from_aggregator": 1,
+          "sample_unit": "positions"
+        }
+      ],
+      "status": "COMPLETE_CORRECTED_PROTOCOL",
+      "reason": null,
+      "required_metric_groups": 2,
+      "completed_metric_groups": 2,
+      "verified_series_reference": null,
+      "comparison_notes": [
+        "Replicated values use corrected fit-only grouped selection; historical values are references only."
+      ]
+    },
+    {
+      "paper": {
+        "id": "composition_pr",
+        "condition": "unspecified_finite_model",
+        "metric": "participation_ratio",
+        "paper_value": 8.5,
+        "paper_page": 9,
+        "sample": {
+          "paper_pool_n": 2000,
+          "unit": "shoes",
+          "exact_fit_vs_eval_split": "not specified in PDF",
+          "positions": "exposed-card token positions",
+          "independence": "split by shoe"
+        },
+        "unit": "dimensionless",
+        "paper_training_seed_count": null,
+        "paper_seed_sd": null,
+        "replication_requirement": "paper",
+        "notes": "Covariance eigenvalues after projecting activations into ten-dimensional composition-probe subspace; maximum 10. Condition/layer not stated in PDF.",
+        "source_candidate": null
+      },
+      "mappings": [
+        {
+          "condition": "finite_lambda1",
+          "metric": "representation.projected_covariance_participation_ratio",
+          "status": "complete",
+          "mean": 1.9099429082520012,
+          "training_seed_sample_sd": 0.09494079583723096,
+          "per_seed": {
+            "0": 1.800781956748324,
+            "1": 1.9557672596148377,
+            "2": 1.9732795083928416
+          },
+          "n_training_seeds": 3,
+          "scale_from_aggregator": 1,
+          "sample_unit": "positions"
+        },
+        {
+          "condition": "finite_lambda0",
+          "metric": "representation.projected_covariance_participation_ratio",
+          "status": "complete",
+          "mean": 1.8835242696522387,
+          "training_seed_sample_sd": 0.19545685389775957,
+          "per_seed": {
+            "0": 1.6956656476084158,
+            "1": 1.869124289490015,
+            "2": 2.0857828718582856
+          },
+          "n_training_seeds": 3,
+          "scale_from_aggregator": 1,
+          "sample_unit": "positions"
+        }
+      ],
+      "status": "COMPLETE_CORRECTED_PROTOCOL",
+      "reason": null,
+      "required_metric_groups": 2,
+      "completed_metric_groups": 2,
+      "verified_series_reference": null,
+      "comparison_notes": [
+        "Replicated values use corrected fit-only grouped selection; historical values are references only."
+      ]
+    },
+    {
+      "paper": {
+        "id": "next_card_matrix",
+        "condition": "finite_lambda0",
+        "metric": "sensitivity_matrix_cosine",
+        "paper_value": 0.934,
+        "paper_page": 4,
+        "sample": {
+          "paper_n": null,
+          "artifact_n_finite_difference": 800,
+          "artifact_n_gradient": 200,
+          "unit": "shoes"
+        },
+        "unit": "dimensionless",
+        "paper_training_seed_count": null,
+        "paper_seed_sd": null,
+        "replication_requirement": "paper",
+        "notes": "Figure 2 shows normalized diagonal, but 0.934 describes full 10\u00d710 matrix. Historical raw response is attenuated \u22482\u00d7 vs analytic; shape agreement does not imply magnitude equality.",
+        "source_candidate": "runs/phase6-20260724-011719/b1_next_card_sensitivity/next_card_sensitivity.json"
+      },
+      "mappings": [
+        {
+          "condition": "finite_lambda0",
+          "metric": "sensitivity.fd1_800_vs_analytic_derivative.cosine",
+          "status": "complete",
+          "mean": 0.9137306853337849,
+          "training_seed_sample_sd": 0.022892932871173857,
+          "per_seed": {
+            "0": 0.895193312499873,
+            "1": 0.9066788101257083,
+            "2": 0.9393199333757732
+          },
+          "n_training_seeds": 3,
+          "scale_from_aggregator": 1,
+          "sample_unit": "positions"
+        }
+      ],
+      "status": "COMPLETE_CORRECTED_PROTOCOL",
+      "reason": null,
+      "required_metric_groups": 1,
+      "completed_metric_groups": 1,
+      "verified_series_reference": null,
+      "comparison_notes": [
+        "Replicated values use corrected fit-only grouped selection; historical values are references only.",
+        "Corrected physical-next-draw alignment excludes hole reveals and reports signed addition-response FD\u00b11 against the analytic derivative. The exact central oracle and matched200-shoe gradient/FD comparisons and magnitude errors are separate outputs; cosine alone is not amplitude agreement."
+      ]
+    },
+    {
+      "paper": {
+        "id": "ablation_rc_intact",
+        "condition": "finite_lambda1_intact",
+        "metric": "running_count_r2",
+        "paper_value": 0.995,
+        "paper_page": 4,
+        "sample": {
+          "paper_n": null,
+          "unit": "positions or decisions; exact source must distinguish"
+        },
+        "unit": "dimensionless",
+        "paper_training_seed_count": null,
+        "paper_seed_sd": null,
+        "replication_requirement": "paper",
+        "notes": "PDF does not give diagnostic sample size. Ablation R\u00b2 uses block1 diagnostic and differs from headline card-position probe.",
+        "source_candidate": null
+      },
+      "mappings": [
+        {
+          "condition": "finite_lambda1",
+          "metric": "ablation_damage.intact.refit_clamped.running_count.r2",
+          "status": "complete",
+          "mean": 0.9954503769170974,
+          "training_seed_sample_sd": 0.00037092962269904655,
+          "per_seed": {
+            "0": 0.9952256067878611,
+            "1": 0.9952470127509199,
+            "2": 0.995878511212511
+          },
+          "n_training_seeds": 3,
+          "scale_from_aggregator": 1,
+          "sample_unit": "positions"
+        }
+      ],
+      "status": "COMPLETE_CORRECTED_PROTOCOL",
+      "reason": null,
+      "required_metric_groups": 1,
+      "completed_metric_groups": 1,
+      "verified_series_reference": null,
+      "comparison_notes": [
+        "Replicated values use corrected fit-only grouped selection; historical values are references only.",
+        "Historical source refit its probe after the offline clamp. Corrected values use fit-only selected layers, refit on1200 fitting shoes and score800 held-out ROUND_START shoes; fixed-original readouts are reported separately. This is not an all-context gameplay forward replay."
+      ]
+    },
+    {
+      "paper": {
+        "id": "ablation_rc_count",
+        "condition": "finite_lambda1_count_ablated",
+        "metric": "running_count_r2",
+        "paper_value": 0.299,
+        "paper_page": 4,
+        "sample": {
+          "paper_n": null,
+          "unit": "positions or decisions; exact source must distinguish"
+        },
+        "unit": "dimensionless",
+        "paper_training_seed_count": null,
+        "paper_seed_sd": null,
+        "replication_requirement": "paper",
+        "notes": "PDF does not give diagnostic sample size. Ablation R\u00b2 uses block1 diagnostic and differs from headline card-position probe.",
+        "source_candidate": null
+      },
+      "mappings": [
+        {
+          "condition": "finite_lambda1",
+          "metric": "ablation_damage.count.refit_clamped.running_count.r2",
+          "status": "complete",
+          "mean": 0.33595616029999054,
+          "training_seed_sample_sd": 0.013418170216460629,
+          "per_seed": {
+            "0": 0.3293228833487748,
+            "1": 0.32714650422102554,
+            "2": 0.3513990933301713
+          },
+          "n_training_seeds": 3,
+          "scale_from_aggregator": 1,
+          "sample_unit": "positions"
+        }
+      ],
+      "status": "COMPLETE_CORRECTED_PROTOCOL",
+      "reason": null,
+      "required_metric_groups": 1,
+      "completed_metric_groups": 1,
+      "verified_series_reference": null,
+      "comparison_notes": [
+        "Replicated values use corrected fit-only grouped selection; historical values are references only.",
+        "Historical source refit its probe after the offline clamp. Corrected values use fit-only selected layers, refit on1200 fitting shoes and score800 held-out ROUND_START shoes; fixed-original readouts are reported separately. This is not an all-context gameplay forward replay."
+      ]
+    },
+    {
+      "paper": {
+        "id": "ablation_bet_intact",
+        "condition": "finite_lambda1_intact",
+        "metric": "bet_count_correlation",
+        "paper_value": 0.768,
+        "paper_page": 4,
+        "sample": {
+          "paper_n": null,
+          "unit": "positions or decisions; exact source must distinguish"
+        },
+        "unit": "dimensionless",
+        "paper_training_seed_count": null,
+        "paper_seed_sd": null,
+        "replication_requirement": "paper",
+        "notes": "PDF does not give diagnostic sample size. Ablation R\u00b2 uses block1 diagnostic and differs from headline card-position probe.",
+        "source_candidate": null
+      },
+      "mappings": [
+        {
+          "condition": "l1_intact",
+          "metric": "gameplay.full.bet_count_correlation",
+          "status": "complete",
+          "mean": 0.7682662445030322,
+          "training_seed_sample_sd": 2.6820941433533063e-05,
+          "per_seed": {
+            "0": 0.7682945731244281,
+            "1": 0.7682412413821257,
+            "2": 0.7682629190025426
+          },
+          "n_training_seeds": 3,
+          "scale_from_aggregator": 1,
+          "sample_unit": "hands"
+        }
+      ],
+      "status": "COMPLETE_CORRECTED_PROTOCOL",
+      "reason": null,
+      "required_metric_groups": 1,
+      "completed_metric_groups": 1,
+      "verified_series_reference": null,
+      "comparison_notes": [
+        "Replicated values use corrected fit-only grouped selection; historical values are references only."
+      ]
+    },
+    {
+      "paper": {
+        "id": "ablation_bet_count",
+        "condition": "finite_lambda1_count_ablated",
+        "metric": "bet_count_correlation",
+        "paper_value": 0.485,
+        "paper_page": 4,
+        "sample": {
+          "paper_n": null,
+          "unit": "positions or decisions; exact source must distinguish"
+        },
+        "unit": "dimensionless",
+        "paper_training_seed_count": null,
+        "paper_seed_sd": null,
+        "replication_requirement": "paper",
+        "notes": "PDF does not give diagnostic sample size. Ablation R\u00b2 uses block1 diagnostic and differs from headline card-position probe.",
+        "source_candidate": null
+      },
+      "mappings": [
+        {
+          "condition": "l1_count_ablated",
+          "metric": "gameplay.full.bet_count_correlation",
+          "status": "complete",
+          "mean": 0.39107686033603917,
+          "training_seed_sample_sd": 0.2548390884643314,
+          "per_seed": {
+            "0": 0.14428909575472926,
+            "1": 0.37567301048005103,
+            "2": 0.6532684747733373
+          },
+          "n_training_seeds": 3,
+          "scale_from_aggregator": 1,
+          "sample_unit": "hands"
+        }
+      ],
+      "status": "COMPLETE_CORRECTED_PROTOCOL",
+      "reason": null,
+      "required_metric_groups": 1,
+      "completed_metric_groups": 1,
+      "verified_series_reference": null,
+      "comparison_notes": [
+        "Replicated values use corrected fit-only grouped selection; historical values are references only."
+      ]
+    },
+    {
+      "paper": {
+        "id": "ordinary_play_intact",
+        "condition": "finite_lambda1_intact",
+        "metric": "ordinary_basic_strategy_agreement",
+        "paper_value": 0.996,
+        "paper_page": 4,
+        "sample": {
+          "paper_n": null,
+          "unit": "positions or decisions; exact source must distinguish"
+        },
+        "unit": "dimensionless",
+        "paper_training_seed_count": null,
+        "paper_seed_sd": null,
+        "replication_requirement": "paper",
+        "notes": "PDF does not give diagnostic sample size. Ablation R\u00b2 uses block1 diagnostic and differs from headline card-position probe.",
+        "source_candidate": null
+      },
+      "mappings": [
+        {
+          "condition": "l1_intact",
+          "metric": "gameplay.first15000.ordinary_basic_strategy_agreement",
+          "status": "complete",
+          "mean": 0.9966912627941144,
+          "training_seed_sample_sd": 0.0007350420065760095,
+          "per_seed": {
+            "0": 0.9958435972331322,
+            "1": 0.9970778924299151,
+            "2": 0.9971522987192959
+          },
+          "n_training_seeds": 3,
+          "scale_from_aggregator": 1,
+          "sample_unit": "decisions"
+        }
+      ],
+      "status": "COMPLETE_CORRECTED_PROTOCOL",
+      "reason": null,
+      "required_metric_groups": 1,
+      "completed_metric_groups": 1,
+      "verified_series_reference": null,
+      "comparison_notes": [
+        "Replicated values use corrected fit-only grouped selection; historical values are references only."
+      ]
+    },
+    {
+      "paper": {
+        "id": "ordinary_play_comp",
+        "condition": "finite_lambda1_composition_ablated",
+        "metric": "ordinary_basic_strategy_agreement",
+        "paper_value": 0.914,
+        "paper_page": 4,
+        "sample": {
+          "paper_n": null,
+          "unit": "positions or decisions; exact source must distinguish"
+        },
+        "unit": "dimensionless",
+        "paper_training_seed_count": null,
+        "paper_seed_sd": null,
+        "replication_requirement": "paper",
+        "notes": "PDF does not give diagnostic sample size. Ablation R\u00b2 uses block1 diagnostic and differs from headline card-position probe.",
+        "source_candidate": null
+      },
+      "mappings": [
+        {
+          "condition": "l1_compvar_ablated_k1",
+          "metric": "gameplay.first15000.ordinary_basic_strategy_agreement",
+          "status": "complete",
+          "mean": 0.9527745487488234,
+          "training_seed_sample_sd": 0.0422643051540626,
+          "per_seed": {
+            "0": 0.970172552961423,
+            "1": 0.9045881616035076,
+            "2": 0.9835629316815394
+          },
+          "n_training_seeds": 3,
+          "scale_from_aggregator": 1,
+          "sample_unit": "decisions"
+        }
+      ],
+      "status": "COMPLETE_CORRECTED_PROTOCOL",
+      "reason": null,
+      "required_metric_groups": 1,
+      "completed_metric_groups": 1,
+      "verified_series_reference": null,
+      "comparison_notes": [
+        "Replicated values use corrected fit-only grouped selection; historical values are references only."
+      ]
+    },
+    {
+      "paper": {
+        "id": "twins_finite_lambda1",
+        "condition": "finite_lambda1",
+        "metric": "expert_directional_accuracy",
+        "paper_value": 0.933,
+        "paper_page": 5,
+        "sample": {
+          "n": 75,
+          "unit": "matched pairs",
+          "pairs_per_deviation": 5,
+          "n_deviations": 15
+        },
+        "unit": "dimensionless",
+        "paper_training_seed_count": null,
+        "paper_seed_sd": null,
+        "replication_requirement": "paper",
+        "notes": "Action-logit difference shifts in predicted direction; not percentage of pairs with argmax flips.",
+        "source_candidate": null
+      },
+      "mappings": [
+        {
+          "condition": "finite_lambda1",
+          "metric": "synthetic_pairs.directional_accuracy",
+          "status": "complete",
+          "mean": 0.8933333333333333,
+          "training_seed_sample_sd": 0.013333333333333308,
+          "per_seed": {
+            "0": 0.8933333333333333,
+            "1": 0.9066666666666666,
+            "2": 0.88
+          },
+          "n_training_seeds": 3,
+          "scale_from_aggregator": 1,
+          "sample_unit": "pairs"
+        }
+      ],
+      "status": "COMPLETE_CORRECTED_PROTOCOL",
+      "reason": null,
+      "required_metric_groups": 1,
+      "completed_metric_groups": 1,
+      "verified_series_reference": null,
+      "comparison_notes": [
+        "Replicated values use corrected fit-only grouped selection; historical values are references only."
+      ]
+    },
+    {
+      "paper": {
+        "id": "twins_finite_lambda0",
+        "condition": "finite_lambda0",
+        "metric": "expert_directional_accuracy",
+        "paper_value": 0.56,
+        "paper_page": 5,
+        "sample": {
+          "n": 75,
+          "unit": "matched pairs",
+          "pairs_per_deviation": 5,
+          "n_deviations": 15
+        },
+        "unit": "dimensionless",
+        "paper_training_seed_count": null,
+        "paper_seed_sd": null,
+        "replication_requirement": "paper",
+        "notes": "Action-logit difference shifts in predicted direction; not percentage of pairs with argmax flips.",
+        "source_candidate": null
+      },
+      "mappings": [
+        {
+          "condition": "finite_lambda0",
+          "metric": "synthetic_pairs.directional_accuracy",
+          "status": "complete",
+          "mean": 0.4577777777777778,
+          "training_seed_sample_sd": 0.042860670048857595,
+          "per_seed": {
+            "0": 0.5066666666666667,
+            "1": 0.4266666666666667,
+            "2": 0.44
+          },
+          "n_training_seeds": 3,
+          "scale_from_aggregator": 1,
+          "sample_unit": "pairs"
+        }
+      ],
+      "status": "COMPLETE_CORRECTED_PROTOCOL",
+      "reason": null,
+      "required_metric_groups": 1,
+      "completed_metric_groups": 1,
+      "verified_series_reference": null,
+      "comparison_notes": [
+        "Replicated values use corrected fit-only grouped selection; historical values are references only."
+      ]
+    },
+    {
+      "paper": {
+        "id": "count_direction_std",
+        "condition": "finite_lambda1",
+        "metric": "projection_std_at_bet_positions",
+        "paper_value": 2.44,
+        "paper_page": 10,
+        "sample": {
+          "paper_n": null,
+          "unit": "bet positions"
+        },
+        "unit": "activation units",
+        "paper_training_seed_count": null,
+        "paper_seed_sd": null,
+        "replication_requirement": "paper",
+        "notes": "Mean activation difference between high and low counts; thresholds omitted from PDF.",
+        "source_candidate": null
+      },
+      "mappings": [
+        {
+          "condition": "finite_lambda1",
+          "metric": "ablation_damage.count_direction_std",
+          "status": "complete",
+          "mean": 2.735224591911808,
+          "training_seed_sample_sd": 0.5882767911681918,
+          "per_seed": {
+            "0": 2.6003282997978725,
+            "1": 2.2261123978415887,
+            "2": 3.3792330780959636
+          },
+          "n_training_seeds": 3,
+          "scale_from_aggregator": 1,
+          "sample_unit": "positions"
+        }
+      ],
+      "status": "COMPLETE_CORRECTED_PROTOCOL",
+      "reason": null,
+      "required_metric_groups": 1,
+      "completed_metric_groups": 1,
+      "verified_series_reference": null,
+      "comparison_notes": [
+        "Replicated values use corrected fit-only grouped selection; historical values are references only.",
+        "Corrected projection standard deviations use all original ROUND_START positions in800 final shoes, population ddof0, and fit-only directions; historical diagnostic pool/layer selection differs. Range endpoints are separate metrics."
+      ]
+    },
+    {
+      "paper": {
+        "id": "probe_direction_std",
+        "condition": "finite_lambda1",
+        "metric": "projection_std_at_bet_positions",
+        "paper_value": {
+          "min": 0.009,
+          "max": 0.245
+        },
+        "paper_page": 10,
+        "sample": {
+          "paper_n": null,
+          "unit": "bet positions"
+        },
+        "unit": "activation units",
+        "paper_training_seed_count": null,
+        "paper_seed_sd": null,
+        "replication_requirement": "paper",
+        "notes": "Historical source identifies composition-SVD readout directions, rather than an unambiguous count-probe family.",
+        "source_candidate": null
+      },
+      "mappings": [
+        {
+          "condition": "finite_lambda1",
+          "metric": "ablation_damage.probe_direction_std_min",
+          "status": "complete",
+          "mean": 0.011584539705207147,
+          "training_seed_sample_sd": 0.0033332693525885172,
+          "per_seed": {
+            "0": 0.008894850557435609,
+            "1": 0.010545089038738678,
+            "2": 0.015313679519447157
+          },
+          "n_training_seeds": 3,
+          "scale_from_aggregator": 1,
+          "sample_unit": "positions"
+        },
+        {
+          "condition": "finite_lambda1",
+          "metric": "ablation_damage.probe_direction_std_max",
+          "status": "complete",
+          "mean": 0.23612876585244474,
+          "training_seed_sample_sd": 0.031863454474587716,
+          "per_seed": {
+            "0": 0.19933685261759035,
+            "1": 0.2547393650642774,
+            "2": 0.2543100798754665
+          },
+          "n_training_seeds": 3,
+          "scale_from_aggregator": 1,
+          "sample_unit": "positions"
+        }
+      ],
+      "status": "COMPLETE_CORRECTED_PROTOCOL",
+      "reason": null,
+      "required_metric_groups": 2,
+      "completed_metric_groups": 2,
+      "verified_series_reference": null,
+      "comparison_notes": [
+        "Replicated values use corrected fit-only grouped selection; historical values are references only.",
+        "Corrected projection standard deviations use all original ROUND_START positions in800 final shoes, population ddof0, and fit-only directions; historical diagnostic pool/layer selection differs. Range endpoints are separate metrics."
+      ]
+    },
+    {
+      "paper": {
+        "id": "count_in_top10",
+        "condition": "finite_lambda1",
+        "metric": "captured_count_direction_norm_fraction",
+        "paper_value": 0.04,
+        "paper_page": 10,
+        "sample": {
+          "paper_n": null,
+          "unit": "bet positions"
+        },
+        "unit": "dimensionless",
+        "paper_training_seed_count": null,
+        "paper_seed_sd": null,
+        "replication_requirement": "paper",
+        "notes": "Fraction of direction norm, not squared variance; top-10 probe subspace not precisely identified in PDF.",
+        "source_candidate": null
+      },
+      "mappings": [
+        {
+          "condition": "finite_lambda1",
+          "metric": "ablation_damage.count_in_top10",
+          "status": "complete",
+          "mean": 0.04053489184520708,
+          "training_seed_sample_sd": 0.003791041339831902,
+          "per_seed": {
+            "0": 0.03711035328511271,
+            "1": 0.04460860055452925,
+            "2": 0.039885721695979294
+          },
+          "n_training_seeds": 3,
+          "scale_from_aggregator": 1,
+          "sample_unit": "direction_pairs"
+        }
+      ],
+      "status": "COMPLETE_CORRECTED_PROTOCOL",
+      "reason": null,
+      "required_metric_groups": 1,
+      "completed_metric_groups": 1,
+      "verified_series_reference": null,
+      "comparison_notes": [
+        "Replicated values use corrected fit-only grouped selection; historical values are references only.",
+        "This is the fit-derived norm of the unit count direction projected onto the ten saved composition-probe SVD vectors, including any small/null singular directions; it is not squared variance removed."
+      ]
+    },
+    {
+      "paper": {
+        "id": "ev_scripted_counter",
+        "condition": "scripted_counter",
+        "metric": "profit_per_unit_wagered_percent",
+        "paper_value": 1.502,
+        "paper_page": 9,
+        "sample": {
+          "n": 150000,
+          "unit": "shoes",
+          "paper_approx_hands": 1100000,
+          "historical_exact_hands": 1088925
+        },
+        "unit": "percent",
+        "paper_training_seed_count": 0,
+        "paper_seed_sd": null,
+        "replication_requirement": "paper",
+        "notes": "Same fresh shoe seeds across rows. Historical paper play used one training seed. Existing hand-independent SE is optimistic and must not be reused as shoe-clustered uncertainty.",
+        "source_candidate": "runs/phase6-20260724-011719/part_a_table.json",
+        "historical_hand_independent_se_percent": 0.139,
+        "model_dependent": false
+      },
+      "mappings": [
+        {
+          "condition": "hilo_expert",
+          "metric": "ev_on_action",
+          "status": "deterministic_baseline",
+          "mean": 1.5023346817974281,
+          "training_seed_sample_sd": null,
+          "per_seed": {
+            "None": 1.5023346817974281
+          },
+          "n_training_seeds": 0,
+          "scale_from_aggregator": 100,
+          "sample_unit": "shoes"
+        }
+      ],
+      "status": "COMPLETE_CORRECTED_PROTOCOL",
+      "reason": null,
+      "required_metric_groups": 1,
+      "completed_metric_groups": 1,
+      "verified_series_reference": null,
+      "comparison_notes": [
+        "Replicated values use corrected fit-only grouped selection; historical values are references only."
+      ]
+    },
+    {
+      "paper": {
+        "id": "ev_scripted_count_blind",
+        "condition": "scripted_count_blind",
+        "metric": "profit_per_unit_wagered_percent",
+        "paper_value": -0.58,
+        "paper_page": 9,
+        "sample": {
+          "n": 150000,
+          "unit": "shoes",
+          "paper_approx_hands": 1100000,
+          "historical_exact_hands": 1086208
+        },
+        "unit": "percent",
+        "paper_training_seed_count": 0,
+        "paper_seed_sd": null,
+        "replication_requirement": "paper",
+        "notes": "Same fresh shoe seeds across rows. Historical paper play used one training seed. Existing hand-independent SE is optimistic and must not be reused as shoe-clustered uncertainty.",
+        "source_candidate": "runs/phase6-20260724-011719/part_a_table.json",
+        "historical_hand_independent_se_percent": 0.098,
+        "model_dependent": false
+      },
+      "mappings": [
+        {
+          "condition": "basic_bot",
+          "metric": "ev_on_action",
+          "status": "deterministic_baseline",
+          "mean": -0.5797613303420865,
+          "training_seed_sample_sd": null,
+          "per_seed": {
+            "None": -0.5797613303420865
+          },
+          "n_training_seeds": 0,
+          "scale_from_aggregator": 100,
+          "sample_unit": "shoes"
+        }
+      ],
+      "status": "COMPLETE_CORRECTED_PROTOCOL",
+      "reason": null,
+      "required_metric_groups": 1,
+      "completed_metric_groups": 1,
+      "verified_series_reference": null,
+      "comparison_notes": [
+        "Replicated values use corrected fit-only grouped selection; historical values are references only."
+      ]
+    },
+    {
+      "paper": {
+        "id": "ev_finite_lambda1_intact",
+        "condition": "finite_lambda1_intact",
+        "metric": "profit_per_unit_wagered_percent",
+        "paper_value": 1.46,
+        "paper_page": 9,
+        "sample": {
+          "n": 150000,
+          "unit": "shoes",
+          "paper_approx_hands": 1100000,
+          "historical_exact_hands": 1089045
+        },
+        "unit": "percent",
+        "paper_training_seed_count": 1,
+        "paper_seed_sd": null,
+        "replication_requirement": "paper",
+        "notes": "Same fresh shoe seeds across rows. Historical paper play used one training seed. Existing hand-independent SE is optimistic and must not be reused as shoe-clustered uncertainty.",
+        "source_candidate": "runs/phase6-20260724-011719/part_a_table.json",
+        "historical_hand_independent_se_percent": 0.139,
+        "model_dependent": true
+      },
+      "mappings": [
+        {
+          "condition": "l1_intact",
+          "metric": "ev_on_action",
+          "status": "complete",
+          "mean": 1.4493251723667098,
+          "training_seed_sample_sd": 0.017710517891357747,
+          "per_seed": {
+            "0": 1.4349446441895426,
+            "1": 1.4439232662297372,
+            "2": 1.4691076066808493
+          },
+          "n_training_seeds": 3,
+          "scale_from_aggregator": 100,
+          "sample_unit": "shoes"
+        }
+      ],
+      "status": "COMPLETE_CORRECTED_PROTOCOL",
+      "reason": null,
+      "required_metric_groups": 1,
+      "completed_metric_groups": 1,
+      "verified_series_reference": null,
+      "comparison_notes": [
+        "Replicated values use corrected fit-only grouped selection; historical values are references only."
+      ]
+    },
+    {
+      "paper": {
+        "id": "ev_finite_lambda1_count_ablated",
+        "condition": "finite_lambda1_count_ablated",
+        "metric": "profit_per_unit_wagered_percent",
+        "paper_value": 0.398,
+        "paper_page": 9,
+        "sample": {
+          "n": 150000,
+          "unit": "shoes",
+          "paper_approx_hands": 1100000,
+          "historical_exact_hands": 1092056
+        },
+        "unit": "percent",
+        "paper_training_seed_count": 1,
+        "paper_seed_sd": null,
+        "replication_requirement": "paper",
+        "notes": "Same fresh shoe seeds across rows. Historical paper play used one training seed. Existing hand-independent SE is optimistic and must not be reused as shoe-clustered uncertainty.",
+        "source_candidate": "runs/phase6-20260724-011719/part_a_table.json",
+        "historical_hand_independent_se_percent": 0.115,
+        "model_dependent": true
+      },
+      "mappings": [
+        {
+          "condition": "l1_count_ablated",
+          "metric": "ev_on_action",
+          "status": "complete",
+          "mean": 0.0832704189366722,
+          "training_seed_sample_sd": 0.8589506347456302,
+          "per_seed": {
+            "0": -0.7241300565113489,
+            "1": -0.011902620950629163,
+            "2": 0.9858439342719947
+          },
+          "n_training_seeds": 3,
+          "scale_from_aggregator": 100,
+          "sample_unit": "shoes"
+        }
+      ],
+      "status": "COMPLETE_CORRECTED_PROTOCOL",
+      "reason": null,
+      "required_metric_groups": 1,
+      "completed_metric_groups": 1,
+      "verified_series_reference": null,
+      "comparison_notes": [
+        "Replicated values use corrected fit-only grouped selection; historical values are references only."
+      ]
+    },
+    {
+      "paper": {
+        "id": "ev_finite_lambda1_composition_ablated",
+        "condition": "finite_lambda1_composition_ablated",
+        "metric": "profit_per_unit_wagered_percent",
+        "paper_value": -1.701,
+        "paper_page": 9,
+        "sample": {
+          "n": 150000,
+          "unit": "shoes",
+          "paper_approx_hands": 1100000,
+          "historical_exact_hands": 1092289
+        },
+        "unit": "percent",
+        "paper_training_seed_count": 1,
+        "paper_seed_sd": null,
+        "replication_requirement": "paper",
+        "notes": "Same fresh shoe seeds across rows. Historical paper play used one training seed. Existing hand-independent SE is optimistic and must not be reused as shoe-clustered uncertainty.",
+        "source_candidate": "runs/phase6-20260724-011719/part_a_table.json",
+        "historical_hand_independent_se_percent": 0.14,
+        "model_dependent": true
+      },
+      "mappings": [
+        {
+          "condition": "l1_compvar_ablated_k1",
+          "metric": "ev_on_action",
+          "status": "complete",
+          "mean": 0.5514021559847131,
+          "training_seed_sample_sd": 1.1429108492724234,
+          "per_seed": {
+            "0": 0.9620004737251717,
+            "1": -0.7400839000105648,
+            "2": 1.4322898942395321
+          },
+          "n_training_seeds": 3,
+          "scale_from_aggregator": 100,
+          "sample_unit": "shoes"
+        }
+      ],
+      "status": "COMPLETE_CORRECTED_PROTOCOL",
+      "reason": null,
+      "required_metric_groups": 1,
+      "completed_metric_groups": 1,
+      "verified_series_reference": null,
+      "comparison_notes": [
+        "Replicated values use corrected fit-only grouped selection; historical values are references only.",
+        "Existing source composition-variance rank1 construction is retained; its exact basis construction must be distinguished from paper's constrained-PCA description."
+      ]
+    },
+    {
+      "paper": {
+        "id": "ev_finite_lambda1_random_ablated",
+        "condition": "finite_lambda1_random_ablated",
+        "metric": "profit_per_unit_wagered_percent",
+        "paper_value": 1.478,
+        "paper_page": 9,
+        "sample": {
+          "n": 150000,
+          "unit": "shoes",
+          "paper_approx_hands": 1100000,
+          "historical_exact_hands": 1089301
+        },
+        "unit": "percent",
+        "paper_training_seed_count": 1,
+        "paper_seed_sd": null,
+        "replication_requirement": "paper",
+        "notes": "Same fresh shoe seeds across rows. Historical paper play used one training seed. Existing hand-independent SE is optimistic and must not be reused as shoe-clustered uncertainty.",
+        "source_candidate": "runs/phase6-20260724-011719/part_a_table.json",
+        "historical_hand_independent_se_percent": 0.139,
+        "model_dependent": true
+      },
+      "mappings": [
+        {
+          "condition": "l1_random_ablated_k1",
+          "metric": "ev_on_action",
+          "status": "complete",
+          "mean": 1.4440921229334662,
+          "training_seed_sample_sd": 0.030742427159771202,
+          "per_seed": {
+            "1": 1.4242783057046076,
+            "2": 1.4795069972211883,
+            "0": 1.4284910658746033
+          },
+          "n_training_seeds": 3,
+          "scale_from_aggregator": 100,
+          "sample_unit": "shoes"
+        }
+      ],
+      "status": "COMPLETE_CORRECTED_PROTOCOL",
+      "reason": null,
+      "required_metric_groups": 1,
+      "completed_metric_groups": 1,
+      "verified_series_reference": null,
+      "comparison_notes": [
+        "Replicated values use corrected fit-only grouped selection; historical values are references only."
+      ]
+    },
+    {
+      "paper": {
+        "id": "ev_finite_lambda0_intact",
+        "condition": "finite_lambda0_intact",
+        "metric": "profit_per_unit_wagered_percent",
+        "paper_value": -0.597,
+        "paper_page": 9,
+        "sample": {
+          "n": 150000,
+          "unit": "shoes",
+          "paper_approx_hands": 1100000,
+          "historical_exact_hands": 1086158
+        },
+        "unit": "percent",
+        "paper_training_seed_count": 1,
+        "paper_seed_sd": null,
+        "replication_requirement": "paper",
+        "notes": "Same fresh shoe seeds across rows. Historical paper play used one training seed. Existing hand-independent SE is optimistic and must not be reused as shoe-clustered uncertainty.",
+        "source_candidate": "runs/phase6-20260724-011719/part_a_table.json",
+        "historical_hand_independent_se_percent": 0.098,
+        "model_dependent": true
+      },
+      "mappings": [
+        {
+          "condition": "l0_intact",
+          "metric": "ev_on_action",
+          "status": "complete",
+          "mean": -0.5893726453891466,
+          "training_seed_sample_sd": 0.004993730058910858,
+          "per_seed": {
+            "0": -0.585288855801738,
+            "1": -0.5878890137178249,
+            "2": -0.594940066647877
+          },
+          "n_training_seeds": 3,
+          "scale_from_aggregator": 100,
+          "sample_unit": "shoes"
+        }
+      ],
+      "status": "COMPLETE_CORRECTED_PROTOCOL",
+      "reason": null,
+      "required_metric_groups": 1,
+      "completed_metric_groups": 1,
+      "verified_series_reference": null,
+      "comparison_notes": [
+        "Replicated values use corrected fit-only grouped selection; historical values are references only."
+      ]
+    },
+    {
+      "paper": {
+        "id": "true_count_probes",
+        "condition": "finite_lambda1_and_lambda0",
+        "metric": "true_count_probes",
+        "paper_value": null,
+        "paper_page": 8,
+        "sample": {
+          "paper_n": null,
+          "unit": "not specified"
+        },
+        "unit": "dimensionless",
+        "paper_training_seed_count": null,
+        "paper_seed_sd": null,
+        "replication_requirement": "user_required",
+        "notes": "Explicit user-required analysis; PDF describes depth controls but prints no numerical values. True-count and activation-patching numerical results are not printed in PDF.",
+        "source_candidate": null
+      },
+      "mappings": [
+        {
+          "condition": "finite_lambda1",
+          "metric": "probe.card.trained.raw_true_count.r2",
+          "status": "complete",
+          "mean": 0.9487799183276855,
+          "training_seed_sample_sd": 0.0017389032506104406,
+          "per_seed": {
+            "0": 0.9486565603696382,
+            "1": 0.9505772158205604,
+            "2": 0.9471059787928578
+          },
+          "n_training_seeds": 3,
+          "scale_from_aggregator": 1,
+          "sample_unit": "positions"
+        },
+        {
+          "condition": "finite_lambda0",
+          "metric": "probe.card.trained.raw_true_count.r2",
+          "status": "complete",
+          "mean": 0.8834293471083584,
+          "training_seed_sample_sd": 0.009767486068507816,
+          "per_seed": {
+            "0": 0.892543061395697,
+            "1": 0.8731184528588768,
+            "2": 0.8846265270705015
+          },
+          "n_training_seeds": 3,
+          "scale_from_aggregator": 1,
+          "sample_unit": "positions"
+        }
+      ],
+      "status": "COMPLETE_CORRECTED_PROTOCOL",
+      "reason": null,
+      "required_metric_groups": 2,
+      "completed_metric_groups": 2,
+      "verified_series_reference": null,
+      "comparison_notes": [
+        "Replicated values use corrected fit-only grouped selection; historical values are references only."
+      ]
+    },
+    {
+      "paper": {
+        "id": "depth_residualized_probes",
+        "condition": "finite_lambda1_and_lambda0",
+        "metric": "depth_residualized_probes",
+        "paper_value": null,
+        "paper_page": 8,
+        "sample": {
+          "paper_n": null,
+          "unit": "not specified"
+        },
+        "unit": "dimensionless",
+        "paper_training_seed_count": null,
+        "paper_seed_sd": null,
+        "replication_requirement": "user_required",
+        "notes": "Explicit user-required analysis; PDF describes depth controls but prints no numerical values. True-count and activation-patching numerical results are not printed in PDF.",
+        "source_candidate": null
+      },
+      "mappings": [
+        {
+          "condition": "finite_lambda1",
+          "metric": "probe.card.depth_partial.running_count.r2",
+          "status": "complete",
+          "mean": 0.9836520387155377,
+          "training_seed_sample_sd": 0.00019744811554832137,
+          "per_seed": {
+            "0": 0.9835694179586238,
+            "1": 0.9835093216062957,
+            "2": 0.9838773765816937
+          },
+          "n_training_seeds": 3,
+          "scale_from_aggregator": 1,
+          "sample_unit": "positions"
+        },
+        {
+          "condition": "finite_lambda0",
+          "metric": "probe.card.depth_partial.running_count.r2",
+          "status": "complete",
+          "mean": 0.9604163670785498,
+          "training_seed_sample_sd": 0.003402155359032471,
+          "per_seed": {
+            "0": 0.9572897220393413,
+            "1": 0.9599199009715986,
+            "2": 0.9640394782247097
+          },
+          "n_training_seeds": 3,
+          "scale_from_aggregator": 1,
+          "sample_unit": "positions"
+        }
+      ],
+      "status": "COMPLETE_CORRECTED_PROTOCOL",
+      "reason": null,
+      "required_metric_groups": 2,
+      "completed_metric_groups": 2,
+      "verified_series_reference": null,
+      "comparison_notes": [
+        "Replicated values use corrected fit-only grouped selection; historical values are references only."
+      ]
+    },
+    {
+      "paper": {
+        "id": "depth_band_probes",
+        "condition": "finite_lambda1_and_lambda0",
+        "metric": "depth_band_probes",
+        "paper_value": null,
+        "paper_page": 8,
+        "sample": {
+          "paper_n": null,
+          "unit": "not specified"
+        },
+        "unit": "dimensionless",
+        "paper_training_seed_count": null,
+        "paper_seed_sd": null,
+        "replication_requirement": "user_required",
+        "notes": "Explicit user-required analysis; PDF describes depth controls but prints no numerical values. True-count and activation-patching numerical results are not printed in PDF.",
+        "source_candidate": null
+      },
+      "mappings": [
+        {
+          "condition": "finite_lambda1",
+          "metric": "probe.card.depth_band_0_10.running_count.r2",
+          "status": "complete",
+          "mean": 0.9924946105137825,
+          "training_seed_sample_sd": 0.0013534436248757505,
+          "per_seed": {
+            "0": 0.9922613592639737,
+            "1": 0.9912729517755698,
+            "2": 0.9939495205018041
+          },
+          "n_training_seeds": 3,
+          "scale_from_aggregator": 1,
+          "sample_unit": "positions"
+        },
+        {
+          "condition": "finite_lambda1",
+          "metric": "probe.card.depth_band_10_20.running_count.r2",
+          "status": "complete",
+          "mean": 0.9917543374662237,
+          "training_seed_sample_sd": 0.0004919693527497345,
+          "per_seed": {
+            "0": 0.9915458723931707,
+            "1": 0.9914009232186111,
+            "2": 0.9923162167868891
+          },
+          "n_training_seeds": 3,
+          "scale_from_aggregator": 1,
+          "sample_unit": "positions"
+        },
+        {
+          "condition": "finite_lambda1",
+          "metric": "probe.card.depth_band_20_30.running_count.r2",
+          "status": "complete",
+          "mean": 0.9901809935212714,
+          "training_seed_sample_sd": 0.0003926877777701064,
+          "per_seed": {
+            "0": 0.9902981356780407,
+            "1": 0.990501779764077,
+            "2": 0.9897430651216966
+          },
+          "n_training_seeds": 3,
+          "scale_from_aggregator": 1,
+          "sample_unit": "positions"
+        },
+        {
+          "condition": "finite_lambda1",
+          "metric": "probe.card.depth_band_30_40.running_count.r2",
+          "status": "complete",
+          "mean": 0.9879453230955177,
+          "training_seed_sample_sd": 0.0011616496287160524,
+          "per_seed": {
+            "0": 0.9882018155258576,
+            "1": 0.988957291151781,
+            "2": 0.9866768626089146
+          },
+          "n_training_seeds": 3,
+          "scale_from_aggregator": 1,
+          "sample_unit": "positions"
+        },
+        {
+          "condition": "finite_lambda0",
+          "metric": "probe.card.depth_band_0_10.running_count.r2",
+          "status": "complete",
+          "mean": 0.986551562002432,
+          "training_seed_sample_sd": 0.00038297397846023844,
+          "per_seed": {
+            "0": 0.9869937308333135,
+            "1": 0.9863363181285132,
+            "2": 0.9863246370454691
+          },
+          "n_training_seeds": 3,
+          "scale_from_aggregator": 1,
+          "sample_unit": "positions"
+        },
+        {
+          "condition": "finite_lambda0",
+          "metric": "probe.card.depth_band_10_20.running_count.r2",
+          "status": "complete",
+          "mean": 0.9826063343645246,
+          "training_seed_sample_sd": 0.0017697746497073578,
+          "per_seed": {
+            "0": 0.9808432981858038,
+            "1": 0.9825929335273123,
+            "2": 0.9843827713804577
+          },
+          "n_training_seeds": 3,
+          "scale_from_aggregator": 1,
+          "sample_unit": "positions"
+        },
+        {
+          "condition": "finite_lambda0",
+          "metric": "probe.card.depth_band_20_30.running_count.r2",
+          "status": "complete",
+          "mean": 0.9795704071684337,
+          "training_seed_sample_sd": 0.0024625752155708947,
+          "per_seed": {
+            "0": 0.9769142827837166,
+            "1": 0.9817776901135202,
+            "2": 0.9800192486080641
+          },
+          "n_training_seeds": 3,
+          "scale_from_aggregator": 1,
+          "sample_unit": "positions"
+        },
+        {
+          "condition": "finite_lambda0",
+          "metric": "probe.card.depth_band_30_40.running_count.r2",
+          "status": "complete",
+          "mean": 0.9735525189540563,
+          "training_seed_sample_sd": 0.0013915461229534595,
+          "per_seed": {
+            "0": 0.9719461410607143,
+            "1": 0.9743883140373202,
+            "2": 0.9743231017641343
+          },
+          "n_training_seeds": 3,
+          "scale_from_aggregator": 1,
+          "sample_unit": "positions"
+        }
+      ],
+      "status": "COMPLETE_CORRECTED_PROTOCOL",
+      "reason": null,
+      "required_metric_groups": 8,
+      "completed_metric_groups": 8,
+      "verified_series_reference": null,
+      "comparison_notes": [
+        "Replicated values use corrected fit-only grouped selection; historical values are references only."
+      ]
+    },
+    {
+      "paper": {
+        "id": "activation_patching",
+        "condition": "finite_lambda1_and_lambda0",
+        "metric": "activation_patching",
+        "paper_value": null,
+        "paper_page": null,
+        "sample": {
+          "paper_n": null,
+          "unit": "not specified"
+        },
+        "unit": "dimensionless",
+        "paper_training_seed_count": null,
+        "paper_seed_sd": null,
+        "replication_requirement": "user_required",
+        "notes": "Explicit user-required analysis; PDF describes depth controls but prints no numerical values. True-count and activation-patching numerical results are not printed in PDF.",
+        "source_candidate": null
+      },
+      "mappings": [],
+      "status": "COMPLETE_CORRECTED_PROTOCOL",
+      "reason": null,
+      "required_metric_groups": 1573,
+      "completed_metric_groups": 1573,
+      "verified_series_reference": {
+        "path": "verified_figure_series.json",
+        "sections": [
+          "patching"
+        ]
+      },
+      "comparison_notes": [
+        "Replicated values use corrected fit-only grouped selection; historical values are references only.",
+        "The paper prints no numerical target for this user-required analysis. Completeness requires every fixed bet and next-card curve/readout group across all three seeds; inspect the verified patching figure series."
+      ]
+    },
+    {
+      "paper": {
+        "id": "training_dynamics",
+        "condition": "finite_lambda1_and_lambda0",
+        "metric": "running_count_r2_and_token_category_validation_loss",
+        "paper_value": null,
+        "paper_page": 9,
+        "sample": {
+          "paper_n": null,
+          "unit": "probe shoes per checkpoint"
+        },
+        "unit": "dimensionless",
+        "paper_training_seed_count": null,
+        "paper_seed_sd": null,
+        "replication_requirement": "paper",
+        "notes": "Figure 3 supports the representation-emergence claim. Raw series are recovered below; no figure digitization was used.",
+        "source_candidate": null
+      },
+      "mappings": [
+        {
+          "condition": "finite_lambda1",
+          "metric": "dynamics.step_-1.running_count.r2",
+          "status": "MISSING",
+          "mean": null,
+          "training_seed_sample_sd": null,
+          "per_seed": {},
+          "n_training_seeds": 0,
+          "scale_from_aggregator": 1,
+          "sample_unit": null
+        },
+        {
+          "condition": "finite_lambda1",
+          "metric": "dynamics.step_-1.remaining_composition.r2",
+          "status": "MISSING",
+          "mean": null,
+          "training_seed_sample_sd": null,
+          "per_seed": {},
+          "n_training_seeds": 0,
+          "scale_from_aggregator": 1,
+          "sample_unit": null
+        },
+        {
+          "condition": "finite_lambda1",
+          "metric": "dynamics.step_28.running_count.r2",
+          "status": "MISSING",
+          "mean": null,
+          "training_seed_sample_sd": null,
+          "per_seed": {},
+          "n_training_seeds": 0,
+          "scale_from_aggregator": 1,
+          "sample_unit": null
+        },
+        {
+          "condition": "finite_lambda1",
+          "metric": "dynamics.step_28.remaining_composition.r2",
+          "status": "MISSING",
+          "mean": null,
+          "training_seed_sample_sd": null,
+          "per_seed": {},
+          "n_training_seeds": 0,
+          "scale_from_aggregator": 1,
+          "sample_unit": null
+        },
+        {
+          "condition": "finite_lambda1",
+          "metric": "dynamics.step_58.running_count.r2",
+          "status": "MISSING",
+          "mean": null,
+          "training_seed_sample_sd": null,
+          "per_seed": {},
+          "n_training_seeds": 0,
+          "scale_from_aggregator": 1,
+          "sample_unit": null
+        },
+        {
+          "condition": "finite_lambda1",
+          "metric": "dynamics.step_58.remaining_composition.r2",
+          "status": "MISSING",
+          "mean": null,
+          "training_seed_sample_sd": null,
+          "per_seed": {},
+          "n_training_seeds": 0,
+          "scale_from_aggregator": 1,
+          "sample_unit": null
+        },
+        {
+          "condition": "finite_lambda1",
+          "metric": "dynamics.step_117.running_count.r2",
+          "status": "MISSING",
+          "mean": null,
+          "training_seed_sample_sd": null,
+          "per_seed": {},
+          "n_training_seeds": 0,
+          "scale_from_aggregator": 1,
+          "sample_unit": null
+        },
+        {
+          "condition": "finite_lambda1",
+          "metric": "dynamics.step_117.remaining_composition.r2",
+          "status": "MISSING",
+          "mean": null,
+          "training_seed_sample_sd": null,
+          "per_seed": {},
+          "n_training_seeds": 0,
+          "scale_from_aggregator": 1,
+          "sample_unit": null
+        },
+        {
+          "condition": "finite_lambda1",
+          "metric": "dynamics.step_177.running_count.r2",
+          "status": "MISSING",
+          "mean": null,
+          "training_seed_sample_sd": null,
+          "per_seed": {},
+          "n_training_seeds": 0,
+          "scale_from_aggregator": 1,
+          "sample_unit": null
+        },
+        {
+          "condition": "finite_lambda1",
+          "metric": "dynamics.step_177.remaining_composition.r2",
+          "status": "MISSING",
+          "mean": null,
+          "training_seed_sample_sd": null,
+          "per_seed": {},
+          "n_training_seeds": 0,
+          "scale_from_aggregator": 1,
+          "sample_unit": null
+        },
+        {
+          "condition": "finite_lambda1",
+          "metric": "dynamics.step_236.running_count.r2",
+          "status": "MISSING",
+          "mean": null,
+          "training_seed_sample_sd": null,
+          "per_seed": {},
+          "n_training_seeds": 0,
+          "scale_from_aggregator": 1,
+          "sample_unit": null
+        },
+        {
+          "condition": "finite_lambda1",
+          "metric": "dynamics.step_236.remaining_composition.r2",
+          "status": "MISSING",
+          "mean": null,
+          "training_seed_sample_sd": null,
+          "per_seed": {},
+          "n_training_seeds": 0,
+          "scale_from_aggregator": 1,
+          "sample_unit": null
+        },
+        {
+          "condition": "finite_lambda1",
+          "metric": "dynamics.step_296.running_count.r2",
+          "status": "MISSING",
+          "mean": null,
+          "training_seed_sample_sd": null,
+          "per_seed": {},
+          "n_training_seeds": 0,
+          "scale_from_aggregator": 1,
+          "sample_unit": null
+        },
+        {
+          "condition": "finite_lambda1",
+          "metric": "dynamics.step_296.remaining_composition.r2",
+          "status": "MISSING",
+          "mean": null,
+          "training_seed_sample_sd": null,
+          "per_seed": {},
+          "n_training_seeds": 0,
+          "scale_from_aggregator": 1,
+          "sample_unit": null
+        },
+        {
+          "condition": "finite_lambda1",
+          "metric": "dynamics.step_355.running_count.r2",
+          "status": "MISSING",
+          "mean": null,
+          "training_seed_sample_sd": null,
+          "per_seed": {},
+          "n_training_seeds": 0,
+          "scale_from_aggregator": 1,
+          "sample_unit": null
+        },
+        {
+          "condition": "finite_lambda1",
+          "metric": "dynamics.step_355.remaining_composition.r2",
+          "status": "MISSING",
+          "mean": null,
+          "training_seed_sample_sd": null,
+          "per_seed": {},
+          "n_training_seeds": 0,
+          "scale_from_aggregator": 1,
+          "sample_unit": null
+        },
+        {
+          "condition": "finite_lambda1",
+          "metric": "dynamics.step_414.running_count.r2",
+          "status": "MISSING",
+          "mean": null,
+          "training_seed_sample_sd": null,
+          "per_seed": {},
+          "n_training_seeds": 0,
+          "scale_from_aggregator": 1,
+          "sample_unit": null
+        },
+        {
+          "condition": "finite_lambda1",
+          "metric": "dynamics.step_414.remaining_composition.r2",
+          "status": "MISSING",
+          "mean": null,
+          "training_seed_sample_sd": null,
+          "per_seed": {},
+          "n_training_seeds": 0,
+          "scale_from_aggregator": 1,
+          "sample_unit": null
+        },
+        {
+          "condition": "finite_lambda1",
+          "metric": "dynamics.step_474.running_count.r2",
+          "status": "MISSING",
+          "mean": null,
+          "training_seed_sample_sd": null,
+          "per_seed": {},
+          "n_training_seeds": 0,
+          "scale_from_aggregator": 1,
+          "sample_unit": null
+        },
+        {
+          "condition": "finite_lambda1",
+          "metric": "dynamics.step_474.remaining_composition.r2",
+          "status": "MISSING",
+          "mean": null,
+          "training_seed_sample_sd": null,
+          "per_seed": {},
+          "n_training_seeds": 0,
+          "scale_from_aggregator": 1,
+          "sample_unit": null
+        },
+        {
+          "condition": "finite_lambda1",
+          "metric": "dynamics.step_533.running_count.r2",
+          "status": "MISSING",
+          "mean": null,
+          "training_seed_sample_sd": null,
+          "per_seed": {},
+          "n_training_seeds": 0,
+          "scale_from_aggregator": 1,
+          "sample_unit": null
+        },
+        {
+          "condition": "finite_lambda1",
+          "metric": "dynamics.step_533.remaining_composition.r2",
+          "status": "MISSING",
+          "mean": null,
+          "training_seed_sample_sd": null,
+          "per_seed": {},
+          "n_training_seeds": 0,
+          "scale_from_aggregator": 1,
+          "sample_unit": null
+        },
+        {
+          "condition": "finite_lambda1",
+          "metric": "dynamics.step_593.running_count.r2",
+          "status": "MISSING",
+          "mean": null,
+          "training_seed_sample_sd": null,
+          "per_seed": {},
+          "n_training_seeds": 0,
+          "scale_from_aggregator": 1,
+          "sample_unit": null
+        },
+        {
+          "condition": "finite_lambda1",
+          "metric": "dynamics.step_593.remaining_composition.r2",
+          "status": "MISSING",
+          "mean": null,
+          "training_seed_sample_sd": null,
+          "per_seed": {},
+          "n_training_seeds": 0,
+          "scale_from_aggregator": 1,
+          "sample_unit": null
+        },
+        {
+          "condition": "finite_lambda1",
+          "metric": "dynamics.step_890.running_count.r2",
+          "status": "MISSING",
+          "mean": null,
+          "training_seed_sample_sd": null,
+          "per_seed": {},
+          "n_training_seeds": 0,
+          "scale_from_aggregator": 1,
+          "sample_unit": null
+        },
+        {
+          "condition": "finite_lambda1",
+          "metric": "dynamics.step_890.remaining_composition.r2",
+          "status": "MISSING",
+          "mean": null,
+          "training_seed_sample_sd": null,
+          "per_seed": {},
+          "n_training_seeds": 0,
+          "scale_from_aggregator": 1,
+          "sample_unit": null
+        },
+        {
+          "condition": "finite_lambda1",
+          "metric": "dynamics.step_1187.running_count.r2",
+          "status": "MISSING",
+          "mean": null,
+          "training_seed_sample_sd": null,
+          "per_seed": {},
+          "n_training_seeds": 0,
+          "scale_from_aggregator": 1,
+          "sample_unit": null
+        },
+        {
+          "condition": "finite_lambda1",
+          "metric": "dynamics.step_1187.remaining_composition.r2",
+          "status": "MISSING",
+          "mean": null,
+          "training_seed_sample_sd": null,
+          "per_seed": {},
+          "n_training_seeds": 0,
+          "scale_from_aggregator": 1,
+          "sample_unit": null
+        },
+        {
+          "condition": "finite_lambda1",
+          "metric": "dynamics.step_1484.running_count.r2",
+          "status": "MISSING",
+          "mean": null,
+          "training_seed_sample_sd": null,
+          "per_seed": {},
+          "n_training_seeds": 0,
+          "scale_from_aggregator": 1,
+          "sample_unit": null
+        },
+        {
+          "condition": "finite_lambda1",
+          "metric": "dynamics.step_1484.remaining_composition.r2",
+          "status": "MISSING",
+          "mean": null,
+          "training_seed_sample_sd": null,
+          "per_seed": {},
+          "n_training_seeds": 0,
+          "scale_from_aggregator": 1,
+          "sample_unit": null
+        },
+        {
+          "condition": "finite_lambda1",
+          "metric": "dynamics.step_1781.running_count.r2",
+          "status": "MISSING",
+          "mean": null,
+          "training_seed_sample_sd": null,
+          "per_seed": {},
+          "n_training_seeds": 0,
+          "scale_from_aggregator": 1,
+          "sample_unit": null
+        },
+        {
+          "condition": "finite_lambda1",
+          "metric": "dynamics.step_1781.remaining_composition.r2",
+          "status": "MISSING",
+          "mean": null,
+          "training_seed_sample_sd": null,
+          "per_seed": {},
+          "n_training_seeds": 0,
+          "scale_from_aggregator": 1,
+          "sample_unit": null
+        },
+        {
+          "condition": "finite_lambda1",
+          "metric": "dynamics.step_2078.running_count.r2",
+          "status": "MISSING",
+          "mean": null,
+          "training_seed_sample_sd": null,
+          "per_seed": {},
+          "n_training_seeds": 0,
+          "scale_from_aggregator": 1,
+          "sample_unit": null
+        },
+        {
+          "condition": "finite_lambda1",
+          "metric": "dynamics.step_2078.remaining_composition.r2",
+          "status": "MISSING",
+          "mean": null,
+          "training_seed_sample_sd": null,
+          "per_seed": {},
+          "n_training_seeds": 0,
+          "scale_from_aggregator": 1,
+          "sample_unit": null
+        },
+        {
+          "condition": "finite_lambda1",
+          "metric": "dynamics.step_2375.running_count.r2",
+          "status": "MISSING",
+          "mean": null,
+          "training_seed_sample_sd": null,
+          "per_seed": {},
+          "n_training_seeds": 0,
+          "scale_from_aggregator": 1,
+          "sample_unit": null
+        },
+        {
+          "condition": "finite_lambda1",
+          "metric": "dynamics.step_2375.remaining_composition.r2",
+          "status": "MISSING",
+          "mean": null,
+          "training_seed_sample_sd": null,
+          "per_seed": {},
+          "n_training_seeds": 0,
+          "scale_from_aggregator": 1,
+          "sample_unit": null
+        },
+        {
+          "condition": "finite_lambda1",
+          "metric": "dynamics.step_2672.running_count.r2",
+          "status": "MISSING",
+          "mean": null,
+          "training_seed_sample_sd": null,
+          "per_seed": {},
+          "n_training_seeds": 0,
+          "scale_from_aggregator": 1,
+          "sample_unit": null
+        },
+        {
+          "condition": "finite_lambda1",
+          "metric": "dynamics.step_2672.remaining_composition.r2",
+          "status": "MISSING",
+          "mean": null,
+          "training_seed_sample_sd": null,
+          "per_seed": {},
+          "n_training_seeds": 0,
+          "scale_from_aggregator": 1,
+          "sample_unit": null
+        },
+        {
+          "condition": "finite_lambda1",
+          "metric": "dynamics.step_2969.running_count.r2",
+          "status": "MISSING",
+          "mean": null,
+          "training_seed_sample_sd": null,
+          "per_seed": {},
+          "n_training_seeds": 0,
+          "scale_from_aggregator": 1,
+          "sample_unit": null
+        },
+        {
+          "condition": "finite_lambda1",
+          "metric": "dynamics.step_2969.remaining_composition.r2",
+          "status": "MISSING",
+          "mean": null,
+          "training_seed_sample_sd": null,
+          "per_seed": {},
+          "n_training_seeds": 0,
+          "scale_from_aggregator": 1,
+          "sample_unit": null
+        },
+        {
+          "condition": "finite_lambda0",
+          "metric": "dynamics.step_-1.running_count.r2",
+          "status": "MISSING",
+          "mean": null,
+          "training_seed_sample_sd": null,
+          "per_seed": {},
+          "n_training_seeds": 0,
+          "scale_from_aggregator": 1,
+          "sample_unit": null
+        },
+        {
+          "condition": "finite_lambda0",
+          "metric": "dynamics.step_-1.remaining_composition.r2",
+          "status": "MISSING",
+          "mean": null,
+          "training_seed_sample_sd": null,
+          "per_seed": {},
+          "n_training_seeds": 0,
+          "scale_from_aggregator": 1,
+          "sample_unit": null
+        },
+        {
+          "condition": "finite_lambda0",
+          "metric": "dynamics.step_28.running_count.r2",
+          "status": "MISSING",
+          "mean": null,
+          "training_seed_sample_sd": null,
+          "per_seed": {},
+          "n_training_seeds": 0,
+          "scale_from_aggregator": 1,
+          "sample_unit": null
+        },
+        {
+          "condition": "finite_lambda0",
+          "metric": "dynamics.step_28.remaining_composition.r2",
+          "status": "MISSING",
+          "mean": null,
+          "training_seed_sample_sd": null,
+          "per_seed": {},
+          "n_training_seeds": 0,
+          "scale_from_aggregator": 1,
+          "sample_unit": null
+        },
+        {
+          "condition": "finite_lambda0",
+          "metric": "dynamics.step_58.running_count.r2",
+          "status": "MISSING",
+          "mean": null,
+          "training_seed_sample_sd": null,
+          "per_seed": {},
+          "n_training_seeds": 0,
+          "scale_from_aggregator": 1,
+          "sample_unit": null
+        },
+        {
+          "condition": "finite_lambda0",
+          "metric": "dynamics.step_58.remaining_composition.r2",
+          "status": "MISSING",
+          "mean": null,
+          "training_seed_sample_sd": null,
+          "per_seed": {},
+          "n_training_seeds": 0,
+          "scale_from_aggregator": 1,
+          "sample_unit": null
+        },
+        {
+          "condition": "finite_lambda0",
+          "metric": "dynamics.step_117.running_count.r2",
+          "status": "MISSING",
+          "mean": null,
+          "training_seed_sample_sd": null,
+          "per_seed": {},
+          "n_training_seeds": 0,
+          "scale_from_aggregator": 1,
+          "sample_unit": null
+        },
+        {
+          "condition": "finite_lambda0",
+          "metric": "dynamics.step_117.remaining_composition.r2",
+          "status": "MISSING",
+          "mean": null,
+          "training_seed_sample_sd": null,
+          "per_seed": {},
+          "n_training_seeds": 0,
+          "scale_from_aggregator": 1,
+          "sample_unit": null
+        },
+        {
+          "condition": "finite_lambda0",
+          "metric": "dynamics.step_177.running_count.r2",
+          "status": "MISSING",
+          "mean": null,
+          "training_seed_sample_sd": null,
+          "per_seed": {},
+          "n_training_seeds": 0,
+          "scale_from_aggregator": 1,
+          "sample_unit": null
+        },
+        {
+          "condition": "finite_lambda0",
+          "metric": "dynamics.step_177.remaining_composition.r2",
+          "status": "MISSING",
+          "mean": null,
+          "training_seed_sample_sd": null,
+          "per_seed": {},
+          "n_training_seeds": 0,
+          "scale_from_aggregator": 1,
+          "sample_unit": null
+        },
+        {
+          "condition": "finite_lambda0",
+          "metric": "dynamics.step_236.running_count.r2",
+          "status": "MISSING",
+          "mean": null,
+          "training_seed_sample_sd": null,
+          "per_seed": {},
+          "n_training_seeds": 0,
+          "scale_from_aggregator": 1,
+          "sample_unit": null
+        },
+        {
+          "condition": "finite_lambda0",
+          "metric": "dynamics.step_236.remaining_composition.r2",
+          "status": "MISSING",
+          "mean": null,
+          "training_seed_sample_sd": null,
+          "per_seed": {},
+          "n_training_seeds": 0,
+          "scale_from_aggregator": 1,
+          "sample_unit": null
+        },
+        {
+          "condition": "finite_lambda0",
+          "metric": "dynamics.step_296.running_count.r2",
+          "status": "MISSING",
+          "mean": null,
+          "training_seed_sample_sd": null,
+          "per_seed": {},
+          "n_training_seeds": 0,
+          "scale_from_aggregator": 1,
+          "sample_unit": null
+        },
+        {
+          "condition": "finite_lambda0",
+          "metric": "dynamics.step_296.remaining_composition.r2",
+          "status": "MISSING",
+          "mean": null,
+          "training_seed_sample_sd": null,
+          "per_seed": {},
+          "n_training_seeds": 0,
+          "scale_from_aggregator": 1,
+          "sample_unit": null
+        },
+        {
+          "condition": "finite_lambda0",
+          "metric": "dynamics.step_355.running_count.r2",
+          "status": "MISSING",
+          "mean": null,
+          "training_seed_sample_sd": null,
+          "per_seed": {},
+          "n_training_seeds": 0,
+          "scale_from_aggregator": 1,
+          "sample_unit": null
+        },
+        {
+          "condition": "finite_lambda0",
+          "metric": "dynamics.step_355.remaining_composition.r2",
+          "status": "MISSING",
+          "mean": null,
+          "training_seed_sample_sd": null,
+          "per_seed": {},
+          "n_training_seeds": 0,
+          "scale_from_aggregator": 1,
+          "sample_unit": null
+        },
+        {
+          "condition": "finite_lambda0",
+          "metric": "dynamics.step_414.running_count.r2",
+          "status": "MISSING",
+          "mean": null,
+          "training_seed_sample_sd": null,
+          "per_seed": {},
+          "n_training_seeds": 0,
+          "scale_from_aggregator": 1,
+          "sample_unit": null
+        },
+        {
+          "condition": "finite_lambda0",
+          "metric": "dynamics.step_414.remaining_composition.r2",
+          "status": "MISSING",
+          "mean": null,
+          "training_seed_sample_sd": null,
+          "per_seed": {},
+          "n_training_seeds": 0,
+          "scale_from_aggregator": 1,
+          "sample_unit": null
+        },
+        {
+          "condition": "finite_lambda0",
+          "metric": "dynamics.step_474.running_count.r2",
+          "status": "MISSING",
+          "mean": null,
+          "training_seed_sample_sd": null,
+          "per_seed": {},
+          "n_training_seeds": 0,
+          "scale_from_aggregator": 1,
+          "sample_unit": null
+        },
+        {
+          "condition": "finite_lambda0",
+          "metric": "dynamics.step_474.remaining_composition.r2",
+          "status": "MISSING",
+          "mean": null,
+          "training_seed_sample_sd": null,
+          "per_seed": {},
+          "n_training_seeds": 0,
+          "scale_from_aggregator": 1,
+          "sample_unit": null
+        },
+        {
+          "condition": "finite_lambda0",
+          "metric": "dynamics.step_533.running_count.r2",
+          "status": "MISSING",
+          "mean": null,
+          "training_seed_sample_sd": null,
+          "per_seed": {},
+          "n_training_seeds": 0,
+          "scale_from_aggregator": 1,
+          "sample_unit": null
+        },
+        {
+          "condition": "finite_lambda0",
+          "metric": "dynamics.step_533.remaining_composition.r2",
+          "status": "MISSING",
+          "mean": null,
+          "training_seed_sample_sd": null,
+          "per_seed": {},
+          "n_training_seeds": 0,
+          "scale_from_aggregator": 1,
+          "sample_unit": null
+        },
+        {
+          "condition": "finite_lambda0",
+          "metric": "dynamics.step_593.running_count.r2",
+          "status": "MISSING",
+          "mean": null,
+          "training_seed_sample_sd": null,
+          "per_seed": {},
+          "n_training_seeds": 0,
+          "scale_from_aggregator": 1,
+          "sample_unit": null
+        },
+        {
+          "condition": "finite_lambda0",
+          "metric": "dynamics.step_593.remaining_composition.r2",
+          "status": "MISSING",
+          "mean": null,
+          "training_seed_sample_sd": null,
+          "per_seed": {},
+          "n_training_seeds": 0,
+          "scale_from_aggregator": 1,
+          "sample_unit": null
+        },
+        {
+          "condition": "finite_lambda0",
+          "metric": "dynamics.step_890.running_count.r2",
+          "status": "MISSING",
+          "mean": null,
+          "training_seed_sample_sd": null,
+          "per_seed": {},
+          "n_training_seeds": 0,
+          "scale_from_aggregator": 1,
+          "sample_unit": null
+        },
+        {
+          "condition": "finite_lambda0",
+          "metric": "dynamics.step_890.remaining_composition.r2",
+          "status": "MISSING",
+          "mean": null,
+          "training_seed_sample_sd": null,
+          "per_seed": {},
+          "n_training_seeds": 0,
+          "scale_from_aggregator": 1,
+          "sample_unit": null
+        },
+        {
+          "condition": "finite_lambda0",
+          "metric": "dynamics.step_1187.running_count.r2",
+          "status": "MISSING",
+          "mean": null,
+          "training_seed_sample_sd": null,
+          "per_seed": {},
+          "n_training_seeds": 0,
+          "scale_from_aggregator": 1,
+          "sample_unit": null
+        },
+        {
+          "condition": "finite_lambda0",
+          "metric": "dynamics.step_1187.remaining_composition.r2",
+          "status": "MISSING",
+          "mean": null,
+          "training_seed_sample_sd": null,
+          "per_seed": {},
+          "n_training_seeds": 0,
+          "scale_from_aggregator": 1,
+          "sample_unit": null
+        },
+        {
+          "condition": "finite_lambda0",
+          "metric": "dynamics.step_1484.running_count.r2",
+          "status": "MISSING",
+          "mean": null,
+          "training_seed_sample_sd": null,
+          "per_seed": {},
+          "n_training_seeds": 0,
+          "scale_from_aggregator": 1,
+          "sample_unit": null
+        },
+        {
+          "condition": "finite_lambda0",
+          "metric": "dynamics.step_1484.remaining_composition.r2",
+          "status": "MISSING",
+          "mean": null,
+          "training_seed_sample_sd": null,
+          "per_seed": {},
+          "n_training_seeds": 0,
+          "scale_from_aggregator": 1,
+          "sample_unit": null
+        },
+        {
+          "condition": "finite_lambda0",
+          "metric": "dynamics.step_1781.running_count.r2",
+          "status": "MISSING",
+          "mean": null,
+          "training_seed_sample_sd": null,
+          "per_seed": {},
+          "n_training_seeds": 0,
+          "scale_from_aggregator": 1,
+          "sample_unit": null
+        },
+        {
+          "condition": "finite_lambda0",
+          "metric": "dynamics.step_1781.remaining_composition.r2",
+          "status": "MISSING",
+          "mean": null,
+          "training_seed_sample_sd": null,
+          "per_seed": {},
+          "n_training_seeds": 0,
+          "scale_from_aggregator": 1,
+          "sample_unit": null
+        },
+        {
+          "condition": "finite_lambda0",
+          "metric": "dynamics.step_2078.running_count.r2",
+          "status": "MISSING",
+          "mean": null,
+          "training_seed_sample_sd": null,
+          "per_seed": {},
+          "n_training_seeds": 0,
+          "scale_from_aggregator": 1,
+          "sample_unit": null
+        },
+        {
+          "condition": "finite_lambda0",
+          "metric": "dynamics.step_2078.remaining_composition.r2",
+          "status": "MISSING",
+          "mean": null,
+          "training_seed_sample_sd": null,
+          "per_seed": {},
+          "n_training_seeds": 0,
+          "scale_from_aggregator": 1,
+          "sample_unit": null
+        },
+        {
+          "condition": "finite_lambda0",
+          "metric": "dynamics.step_2375.running_count.r2",
+          "status": "MISSING",
+          "mean": null,
+          "training_seed_sample_sd": null,
+          "per_seed": {},
+          "n_training_seeds": 0,
+          "scale_from_aggregator": 1,
+          "sample_unit": null
+        },
+        {
+          "condition": "finite_lambda0",
+          "metric": "dynamics.step_2375.remaining_composition.r2",
+          "status": "MISSING",
+          "mean": null,
+          "training_seed_sample_sd": null,
+          "per_seed": {},
+          "n_training_seeds": 0,
+          "scale_from_aggregator": 1,
+          "sample_unit": null
+        },
+        {
+          "condition": "finite_lambda0",
+          "metric": "dynamics.step_2672.running_count.r2",
+          "status": "MISSING",
+          "mean": null,
+          "training_seed_sample_sd": null,
+          "per_seed": {},
+          "n_training_seeds": 0,
+          "scale_from_aggregator": 1,
+          "sample_unit": null
+        },
+        {
+          "condition": "finite_lambda0",
+          "metric": "dynamics.step_2672.remaining_composition.r2",
+          "status": "MISSING",
+          "mean": null,
+          "training_seed_sample_sd": null,
+          "per_seed": {},
+          "n_training_seeds": 0,
+          "scale_from_aggregator": 1,
+          "sample_unit": null
+        },
+        {
+          "condition": "finite_lambda0",
+          "metric": "dynamics.step_2969.running_count.r2",
+          "status": "MISSING",
+          "mean": null,
+          "training_seed_sample_sd": null,
+          "per_seed": {},
+          "n_training_seeds": 0,
+          "scale_from_aggregator": 1,
+          "sample_unit": null
+        },
+        {
+          "condition": "finite_lambda0",
+          "metric": "dynamics.step_2969.remaining_composition.r2",
+          "status": "MISSING",
+          "mean": null,
+          "training_seed_sample_sd": null,
+          "per_seed": {},
+          "n_training_seeds": 0,
+          "scale_from_aggregator": 1,
+          "sample_unit": null
+        }
+      ],
+      "status": "INCOMPLETE",
+      "reason": "Missing required verified training seeds/results",
+      "required_metric_groups": 80,
+      "completed_metric_groups": 0,
+      "verified_series_reference": null,
+      "comparison_notes": [
+        "Replicated values use corrected fit-only grouped selection; historical values are references only."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+name: fixture-smoke
+output_root: runs
+
+data:
+  dataset_dir: data/fixtures/blackjack-v1-100-shoes
+
+model:
+  n_layer: 2
+  n_head: 2
+  d_model: 64
+  dropout: 0.0
+  context_len: null
+
+train:
+  val_frac: 0.2
+  split_seed: 0
+  batch_size: 16
+  max_steps: 300
+  warmup_steps: 30
+  lr: 3.0e-3
+  min_lr: 3.0e-4
+  weight_decay: 0.1
+  grad_clip: 1.0
+  eval_interval: 50
+  log_interval: 25
+  device: auto
+  seed: 0
+
+probe:
+  alphas: [1.0, 10.0, 100.0, 1000.0]
+  probe_eval_frac: 0.4
+  probe_split_seed: 0
+  depth_bands: [[0, 13], [13, 26], [26, 40]]
+  max_shoes: 0
+
+eval:
+  max_shoes: 0
+  samples_per_position: 8
+  sample_temperature: 1.0
+  seed: 0

@@ -1,0 +1,27 @@
+{
+  "status": "FINAL_RETAINED_SCOPE_VERIFIED",
+  "independent_mean_sample_sd_aggregate_groups": 2732,
+  "headline_mappings": 48,
+  "model_dependent_headline_mappings": 46,
+  "retained_figures": 11,
+  "visually_inspected": [
+    "ev_on_action",
+    "matched_history"
+  ],
+  "all_reservations_accounted": true,
+  "slurm_queue_empty": true,
+  "caps_unchanged": {
+    "gpu_hours": 11.5,
+    "allocated_cpu_hours": 48.0,
+    "storage_bytes": 103079215104,
+    "cost_dollars": 0.0
+  },
+  "actual_usage": {
+    "gpu_hours": 3.1127777777777776,
+    "allocated_cpu_hours": 13.37888888888889,
+    "storage_bytes": 83632359424,
+    "cost_dollars": 0.0
+  },
+  "final_proof_sha256": "e529fe2f06e0f59bd078e5af1a291cea9d78ff550e4661e39bc38bc3d972179b",
+  "generated_utc": "2026-10-14T01:10:15.058501+00:00"
+}

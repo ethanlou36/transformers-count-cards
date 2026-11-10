@@ -1,0 +1,24 @@
+{
+  "status": "USER_AUTHORIZED_SCOPE",
+  "required_numerical_completion": [
+    "ev_finite_lambda1_random_ablated_seed0_150000_shoes",
+    "synthetic_matched_history_75_pairs_all_six_finite_models",
+    "all_retained_headline_results_seed012_mean_sample_sd",
+    "final_tables_figures_provenance_and_resource_report"
+  ],
+  "training_dynamics_decision": "OMITTED: final report retains final-checkpoint counting, composition, interventions and EV claims; makes no claim about how counting emerges over training or correspondence with token-loss trajectories. Paper Figure3 remains not rerun.",
+  "caps": {
+    "gpu_hours": 11.5,
+    "allocated_cpu_hours": 48,
+    "combined_peak_storage_gib": 96,
+    "compute_fees_usd": 0
+  },
+  "concurrency": {
+    "experiment_jobs": 1,
+    "gpus": 1
+  },
+  "paper_comparison": "Retain all36 audited entries; explicitly label dynamics omitted, never impute historic trajectories.",
+  "matched_history_validation_job": "29434170",
+  "matched_history_regression": "audit/synthetic_member_unique_v2_regression.json",
+  "ev_completed_job": "29431298"
+}

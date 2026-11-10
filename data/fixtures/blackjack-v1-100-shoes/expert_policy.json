@@ -1,0 +1,585 @@
+{
+  "action_sources": [
+    "BASIC_STRATEGY",
+    "COUNT_DEVIATION",
+    "FORCED_ACTION",
+    "NATURAL_RESOLUTION"
+  ],
+  "basic_strategy": {
+    "cross_check_source": "https://www.blackjackinfo.com/blackjack-basic-strategy-engine/?numdecks=1&soft17=s17&dbl=all&das=yes&surr=ns&peek=yes",
+    "primary_source": "https://wizardofodds.com/games/blackjack/strategy/calculator/",
+    "profile_id": "single_deck_s17_american_peek_total_dependent_v1",
+    "retrieved_on": "2026-07-22",
+    "rules": "one deck; S17; American peek; double any initial two; no split; no surrender",
+    "soft_12_source": "https://wizardofodds.com/games/blackjack/strategy/1-deck/",
+    "strategy_type": "total-dependent",
+    "table": {
+      "dealer_upcards": [
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "T",
+        "A"
+      ],
+      "hard": {
+        "10": [
+          "DOUBLE_OR_HIT",
+          "DOUBLE_OR_HIT",
+          "DOUBLE_OR_HIT",
+          "DOUBLE_OR_HIT",
+          "DOUBLE_OR_HIT",
+          "DOUBLE_OR_HIT",
+          "DOUBLE_OR_HIT",
+          "DOUBLE_OR_HIT",
+          "HIT",
+          "HIT"
+        ],
+        "11": [
+          "DOUBLE_OR_HIT",
+          "DOUBLE_OR_HIT",
+          "DOUBLE_OR_HIT",
+          "DOUBLE_OR_HIT",
+          "DOUBLE_OR_HIT",
+          "DOUBLE_OR_HIT",
+          "DOUBLE_OR_HIT",
+          "DOUBLE_OR_HIT",
+          "DOUBLE_OR_HIT",
+          "DOUBLE_OR_HIT"
+        ],
+        "12": [
+          "HIT",
+          "HIT",
+          "STAND",
+          "STAND",
+          "STAND",
+          "HIT",
+          "HIT",
+          "HIT",
+          "HIT",
+          "HIT"
+        ],
+        "13": [
+          "STAND",
+          "STAND",
+          "STAND",
+          "STAND",
+          "STAND",
+          "HIT",
+          "HIT",
+          "HIT",
+          "HIT",
+          "HIT"
+        ],
+        "14": [
+          "STAND",
+          "STAND",
+          "STAND",
+          "STAND",
+          "STAND",
+          "HIT",
+          "HIT",
+          "HIT",
+          "HIT",
+          "HIT"
+        ],
+        "15": [
+          "STAND",
+          "STAND",
+          "STAND",
+          "STAND",
+          "STAND",
+          "HIT",
+          "HIT",
+          "HIT",
+          "HIT",
+          "HIT"
+        ],
+        "16": [
+          "STAND",
+          "STAND",
+          "STAND",
+          "STAND",
+          "STAND",
+          "HIT",
+          "HIT",
+          "HIT",
+          "HIT",
+          "HIT"
+        ],
+        "17": [
+          "STAND",
+          "STAND",
+          "STAND",
+          "STAND",
+          "STAND",
+          "STAND",
+          "STAND",
+          "STAND",
+          "STAND",
+          "STAND"
+        ],
+        "18": [
+          "STAND",
+          "STAND",
+          "STAND",
+          "STAND",
+          "STAND",
+          "STAND",
+          "STAND",
+          "STAND",
+          "STAND",
+          "STAND"
+        ],
+        "19": [
+          "STAND",
+          "STAND",
+          "STAND",
+          "STAND",
+          "STAND",
+          "STAND",
+          "STAND",
+          "STAND",
+          "STAND",
+          "STAND"
+        ],
+        "20": [
+          "STAND",
+          "STAND",
+          "STAND",
+          "STAND",
+          "STAND",
+          "STAND",
+          "STAND",
+          "STAND",
+          "STAND",
+          "STAND"
+        ],
+        "21": [
+          "STAND",
+          "STAND",
+          "STAND",
+          "STAND",
+          "STAND",
+          "STAND",
+          "STAND",
+          "STAND",
+          "STAND",
+          "STAND"
+        ],
+        "4": [
+          "HIT",
+          "HIT",
+          "HIT",
+          "HIT",
+          "HIT",
+          "HIT",
+          "HIT",
+          "HIT",
+          "HIT",
+          "HIT"
+        ],
+        "5": [
+          "HIT",
+          "HIT",
+          "HIT",
+          "HIT",
+          "HIT",
+          "HIT",
+          "HIT",
+          "HIT",
+          "HIT",
+          "HIT"
+        ],
+        "6": [
+          "HIT",
+          "HIT",
+          "HIT",
+          "HIT",
+          "HIT",
+          "HIT",
+          "HIT",
+          "HIT",
+          "HIT",
+          "HIT"
+        ],
+        "7": [
+          "HIT",
+          "HIT",
+          "HIT",
+          "HIT",
+          "HIT",
+          "HIT",
+          "HIT",
+          "HIT",
+          "HIT",
+          "HIT"
+        ],
+        "8": [
+          "HIT",
+          "HIT",
+          "HIT",
+          "DOUBLE_OR_HIT",
+          "DOUBLE_OR_HIT",
+          "HIT",
+          "HIT",
+          "HIT",
+          "HIT",
+          "HIT"
+        ],
+        "9": [
+          "DOUBLE_OR_HIT",
+          "DOUBLE_OR_HIT",
+          "DOUBLE_OR_HIT",
+          "DOUBLE_OR_HIT",
+          "DOUBLE_OR_HIT",
+          "HIT",
+          "HIT",
+          "HIT",
+          "HIT",
+          "HIT"
+        ]
+      },
+      "profile_id": "single_deck_s17_american_peek_total_dependent_v1",
+      "soft": {
+        "12": [
+          "HIT",
+          "HIT",
+          "HIT",
+          "DOUBLE_OR_HIT",
+          "DOUBLE_OR_HIT",
+          "HIT",
+          "HIT",
+          "HIT",
+          "HIT",
+          "HIT"
+        ],
+        "13": [
+          "HIT",
+          "HIT",
+          "DOUBLE_OR_HIT",
+          "DOUBLE_OR_HIT",
+          "DOUBLE_OR_HIT",
+          "HIT",
+          "HIT",
+          "HIT",
+          "HIT",
+          "HIT"
+        ],
+        "14": [
+          "HIT",
+          "HIT",
+          "DOUBLE_OR_HIT",
+          "DOUBLE_OR_HIT",
+          "DOUBLE_OR_HIT",
+          "HIT",
+          "HIT",
+          "HIT",
+          "HIT",
+          "HIT"
+        ],
+        "15": [
+          "HIT",
+          "HIT",
+          "DOUBLE_OR_HIT",
+          "DOUBLE_OR_HIT",
+          "DOUBLE_OR_HIT",
+          "HIT",
+          "HIT",
+          "HIT",
+          "HIT",
+          "HIT"
+        ],
+        "16": [
+          "HIT",
+          "HIT",
+          "DOUBLE_OR_HIT",
+          "DOUBLE_OR_HIT",
+          "DOUBLE_OR_HIT",
+          "HIT",
+          "HIT",
+          "HIT",
+          "HIT",
+          "HIT"
+        ],
+        "17": [
+          "DOUBLE_OR_HIT",
+          "DOUBLE_OR_HIT",
+          "DOUBLE_OR_HIT",
+          "DOUBLE_OR_HIT",
+          "DOUBLE_OR_HIT",
+          "HIT",
+          "HIT",
+          "HIT",
+          "HIT",
+          "HIT"
+        ],
+        "18": [
+          "STAND",
+          "DOUBLE_OR_STAND",
+          "DOUBLE_OR_STAND",
+          "DOUBLE_OR_STAND",
+          "DOUBLE_OR_STAND",
+          "STAND",
+          "STAND",
+          "HIT",
+          "HIT",
+          "STAND"
+        ],
+        "19": [
+          "STAND",
+          "STAND",
+          "STAND",
+          "STAND",
+          "DOUBLE_OR_STAND",
+          "STAND",
+          "STAND",
+          "STAND",
+          "STAND",
+          "STAND"
+        ],
+        "20": [
+          "STAND",
+          "STAND",
+          "STAND",
+          "STAND",
+          "STAND",
+          "STAND",
+          "STAND",
+          "STAND",
+          "STAND",
+          "STAND"
+        ],
+        "21": [
+          "STAND",
+          "STAND",
+          "STAND",
+          "STAND",
+          "STAND",
+          "STAND",
+          "STAND",
+          "STAND",
+          "STAND",
+          "STAND"
+        ]
+      }
+    },
+    "table_sha256": "9cd7ffbe36e447aaa08c3129195819678d8478e41c8dc9e55ff1bbfa5ece6bbc"
+  },
+  "bet_ramp": [
+    {
+      "bet_units": 1,
+      "minimum_raw_true_count": null
+    },
+    {
+      "bet_units": 2,
+      "minimum_raw_true_count": 1.0
+    },
+    {
+      "bet_units": 4,
+      "minimum_raw_true_count": 2.0
+    },
+    {
+      "bet_units": 6,
+      "minimum_raw_true_count": 3.0
+    },
+    {
+      "bet_units": 8,
+      "minimum_raw_true_count": 4.0
+    }
+  ],
+  "deviations": [
+    {
+      "action_at_or_above": "STAND",
+      "action_below": "HIT",
+      "comparison": ">=",
+      "dealer_upcard": "T",
+      "hand_type": "HARD",
+      "id": "hard_16_vs_T",
+      "illegal_action_fallback": "HIT",
+      "index_threshold": 0.0,
+      "player_total": 16
+    },
+    {
+      "action_at_or_above": "STAND",
+      "action_below": "HIT",
+      "comparison": ">=",
+      "dealer_upcard": "T",
+      "hand_type": "HARD",
+      "id": "hard_15_vs_T",
+      "illegal_action_fallback": "HIT",
+      "index_threshold": 4.0,
+      "player_total": 15
+    },
+    {
+      "action_at_or_above": "STAND",
+      "action_below": "HIT",
+      "comparison": ">=",
+      "dealer_upcard": "3",
+      "hand_type": "HARD",
+      "id": "hard_12_vs_3",
+      "illegal_action_fallback": "HIT",
+      "index_threshold": 2.0,
+      "player_total": 12
+    },
+    {
+      "action_at_or_above": "STAND",
+      "action_below": "HIT",
+      "comparison": ">=",
+      "dealer_upcard": "2",
+      "hand_type": "HARD",
+      "id": "hard_12_vs_2",
+      "illegal_action_fallback": "HIT",
+      "index_threshold": 3.0,
+      "player_total": 12
+    },
+    {
+      "action_at_or_above": "DOUBLE",
+      "action_below": "HIT",
+      "comparison": ">=",
+      "dealer_upcard": "T",
+      "hand_type": "HARD",
+      "id": "hard_10_vs_T",
+      "illegal_action_fallback": "HIT",
+      "index_threshold": 4.0,
+      "player_total": 10
+    },
+    {
+      "action_at_or_above": "DOUBLE",
+      "action_below": "HIT",
+      "comparison": ">=",
+      "dealer_upcard": "A",
+      "hand_type": "HARD",
+      "id": "hard_11_vs_A",
+      "illegal_action_fallback": "HIT",
+      "index_threshold": 1.0,
+      "player_total": 11
+    },
+    {
+      "action_at_or_above": "DOUBLE",
+      "action_below": "HIT",
+      "comparison": ">=",
+      "dealer_upcard": "2",
+      "hand_type": "HARD",
+      "id": "hard_9_vs_2",
+      "illegal_action_fallback": "HIT",
+      "index_threshold": 1.0,
+      "player_total": 9
+    },
+    {
+      "action_at_or_above": "DOUBLE",
+      "action_below": "HIT",
+      "comparison": ">=",
+      "dealer_upcard": "A",
+      "hand_type": "HARD",
+      "id": "hard_10_vs_A",
+      "illegal_action_fallback": "HIT",
+      "index_threshold": 4.0,
+      "player_total": 10
+    },
+    {
+      "action_at_or_above": "DOUBLE",
+      "action_below": "HIT",
+      "comparison": ">=",
+      "dealer_upcard": "7",
+      "hand_type": "HARD",
+      "id": "hard_9_vs_7",
+      "illegal_action_fallback": "HIT",
+      "index_threshold": 3.0,
+      "player_total": 9
+    },
+    {
+      "action_at_or_above": "STAND",
+      "action_below": "HIT",
+      "comparison": ">=",
+      "dealer_upcard": "9",
+      "hand_type": "HARD",
+      "id": "hard_16_vs_9",
+      "illegal_action_fallback": "HIT",
+      "index_threshold": 5.0,
+      "player_total": 16
+    },
+    {
+      "action_at_or_above": "STAND",
+      "action_below": "HIT",
+      "comparison": ">=",
+      "dealer_upcard": "2",
+      "hand_type": "HARD",
+      "id": "hard_13_vs_2",
+      "illegal_action_fallback": "HIT",
+      "index_threshold": -1.0,
+      "player_total": 13
+    },
+    {
+      "action_at_or_above": "STAND",
+      "action_below": "HIT",
+      "comparison": ">=",
+      "dealer_upcard": "4",
+      "hand_type": "HARD",
+      "id": "hard_12_vs_4",
+      "illegal_action_fallback": "HIT",
+      "index_threshold": 0.0,
+      "player_total": 12
+    },
+    {
+      "action_at_or_above": "STAND",
+      "action_below": "HIT",
+      "comparison": ">=",
+      "dealer_upcard": "5",
+      "hand_type": "HARD",
+      "id": "hard_12_vs_5",
+      "illegal_action_fallback": "HIT",
+      "index_threshold": -2.0,
+      "player_total": 12
+    },
+    {
+      "action_at_or_above": "STAND",
+      "action_below": "HIT",
+      "comparison": ">=",
+      "dealer_upcard": "6",
+      "hand_type": "HARD",
+      "id": "hard_12_vs_6",
+      "illegal_action_fallback": "HIT",
+      "index_threshold": -1.0,
+      "player_total": 12
+    },
+    {
+      "action_at_or_above": "STAND",
+      "action_below": "HIT",
+      "comparison": ">=",
+      "dealer_upcard": "3",
+      "hand_type": "HARD",
+      "id": "hard_13_vs_3",
+      "illegal_action_fallback": "HIT",
+      "index_threshold": -2.0,
+      "player_total": 13
+    }
+  ],
+  "hi_lo_weights": {
+    "2": 1,
+    "3": 1,
+    "4": 1,
+    "5": 1,
+    "6": 1,
+    "7": 0,
+    "8": 0,
+    "9": 0,
+    "A": -1,
+    "T": -1
+  },
+  "information_boundary": "public observations only",
+  "policy_version": "hilo-expert-v1",
+  "true_count": {
+    "formula": "running_count * 52 / physical_cards_remaining",
+    "stored_integer_conventions": [
+      "floor",
+      "ceiling",
+      "truncation"
+    ],
+    "threshold_convention": "compare raw true count directly"
+  }
+}
